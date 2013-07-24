@@ -1,9 +1,9 @@
 
 .micronav ul {
 	list-style:none;
-	padding:50px;
+	padding:5px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  /*color:#777;*/
   font-size:9px
 }
 
