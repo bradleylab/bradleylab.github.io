@@ -7,10 +7,37 @@ body {
   font-weight:300;
 }
 
-.main {
-	padding-top: 45px;
+.wrapper {
+  width:860px;
+  margin:0 auto;
 }
 
+.main {
+	padding-top: 75px;
+}
+
+/*---------------------*/
+header {
+	width: 860px;
+	float: left;
+	position: fixed;
+	overflow:hidden;
+}
+
+header h1 {
+	display: inline-block;
+	margin-top: 3;
+	margin-right: 0;
+	margin-bottom: 2px;
+	margin-left: 0;
+}
+
+header p {
+  margin:0 0 3px;
+}
+
+
+/*---------------------*/
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
@@ -50,10 +77,6 @@ a small {
   display:block;
 }
 
-.wrapper {
-  width:860px;
-  margin:0 auto;
-}
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -100,23 +123,7 @@ img {
   max-width:100%;
 }
 
-header {
-	width: 860px;
-	float: left;
-	position: fixed;
-}
 
-header h1 {
-	display: inline-block;
-	margin-top: 5;
-	margin-right: 0;
-	margin-bottom: 2px;
-	margin-left: 0;
-}
-
-header p {
-  margin:0 0 3px;
-}
 
 /*header ul {
   list-style:none;
@@ -183,7 +190,7 @@ header ul a strong {
 
 
 section {
-  width:500px;
+  width:860px;
   float:left;
   padding-bottom:50px;
   padding-top: 25px;
@@ -218,17 +225,21 @@ footer {
     float:none;
     position:static;
     width:auto;
+	
   }
   
   header {
     padding-right:320px;
+	z-index:+1;
   }
+  
   
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
+	z-index:0;
   }
   
   header a small {
