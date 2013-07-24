@@ -1,8 +1,8 @@
-header {
+/*header {
 	overflow:hidden;
-}
+}*/
 
-#banner {
+header {
   width:840px;
   height:80px;
   margin:0 auto;
