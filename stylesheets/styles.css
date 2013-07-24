@@ -16,7 +16,10 @@ body {
   width:860px;
   height:100px;
   margin:0 auto;
-  background-color:#9F0;
+  padding: 10px;
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  background-color:#f8f8f8;
 	
 }
 
