@@ -1,12 +1,12 @@
 header {
-	overflow:hidden;
+	display:block;
 }
 
 #banner {
   width:840px;
   height:80px;
   margin:0 auto;
-  padding: 0px;
+  padding: 5px;
   border-radius:5px;
   border:1px solid #e5e5e5;
   background-color:#f8f8f8;
@@ -68,7 +68,11 @@ header {
 }
 /*--------------------------*/
 
-#sitename h1{
+header {
+	display:block;
+}
+
+header h1{
 	display: inline;
 	font-size:32px;
 	font-weight:normal;
@@ -79,6 +83,8 @@ header {
 	display:block;
 	overflow:hidden;*/
 }
+
+
 
 #MainNav {
 	clear:left;
@@ -98,7 +104,7 @@ header {
 
 #MainNav li {
 	display:inline;
-	padding-right:10px;
+	padding-right:15px;
 }
 
 #MainNav li a:link{
