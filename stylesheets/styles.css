@@ -107,7 +107,7 @@ header {
 }
 
 header h1 {
-	display:inline;
+	display:inline-block;
   	margin:0 0 2px;
 }
 
