@@ -1,5 +1,5 @@
-#microheader {
-	margin-bottom: -1px;
+.microheader {
+	margin-bottom: -10px;
 	height: 18px;
 	clear: right;
 /* MenuNav CSS from marcofolio.net /*
@@ -10,11 +10,11 @@
 
 
 
-#micronav {
+.micronav {
 	list-style:none;
 }
 
-#micronav li {
+.micronav li {
 	line-height:18px;
 	float:left;
 	display:block;
@@ -38,9 +38,9 @@
 	background-color:#f7cdcd;/* Fallback */
 }
 
-#micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
+.micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
 
-#micronav li:first-child {
+.micronav li:first-child {
 	border-left:none;
 	padding-left: 3px;
 	-moz-border-radius:4px 0 0 4px;
@@ -48,11 +48,11 @@
     border-radius:4px 0 0 4px;
 }
 
-#micronav li:first-child:after {
+.micronav li:first-child:after {
 	border:none;
 }
 
-#micronav li:after {
+.micronav li:after {
 	content: ' ';
 	height: 0;
 	position: absolute;
@@ -63,7 +63,7 @@
 	margin-left: -10px;
 }
 
-#micronav li:last-child {
+.micronav li:last-child {
 	border-right:none;
 	-moz-border-radius:0 4px 4px 0;
     -webkit-border-radius:0 4px 4px 0;
@@ -71,7 +71,7 @@
 	padding-right: 5px;
 }
 
-#micronav li img {
+.micronav li img {
 	height: 12px;
 	margin-top: 2px;
 	margin-bottom: -2px;
