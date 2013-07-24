@@ -14,13 +14,12 @@ body {
 
 .HeadWrap {
   width:860px;
-  height:100px;
+  height:80px;
   margin:0 auto;
   padding: 10px;
   border-radius:5px;
   border:1px solid #e5e5e5;
-  background-color:#f8f8f8;
-	
+  background-color:#f8f8f8;	
 }
 
 
@@ -31,21 +30,12 @@ header {
 	position: fixed;
 }
 
-/*header h1 {
+header h1 {
 	display: inline-block;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0px;
-	margin-left: 0;
-}*/
-
-.MainHead {
 	font-size:32px;
+	font-weight:normal;
 	color:#000;
 }
-
-
-
 
 header p {
   margin:0 0 3px;

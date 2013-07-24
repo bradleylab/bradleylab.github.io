@@ -42,24 +42,31 @@
 
 /*--------------------------*/
 
-nav {
-  padding:3px;
+#MainNav ul {
+  list-style:none;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
+  padding:2px;
 }
 
-nav li a:link{
+#MainNav li {
+	display:inline;
+	padding-right:10px;
+}
+
+#MainNav li a:link{
 	color:#006633;
 }
 
-nav li a:visited{
+#MainNav li a:visited{
 	color:#006633;
 }
 
-nav li a:hover{
+#MainNav li a:hover{
 	color:#011e14;
 }
-nav li a:active {
+
+#MainNav li a:active {
 		color:#393939;
 }
 
