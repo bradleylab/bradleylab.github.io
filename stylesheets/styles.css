@@ -12,25 +12,35 @@ body {
   margin:0 auto;
 }
 
-.main {
-	padding-top: 75px;
+.HeadWrap {
+  width:860px;
+  height:100px;
+  margin:0 auto;
+  background-color:#9F0;
+	
 }
+
 
 /*---------------------*/
 header {
 	width: 860px;
 	float: left;
 	position: fixed;
-	overflow:hidden;
 }
 
-header h1 {
+/*header h1 {
 	display: inline-block;
-	margin-top: 3;
+	margin-top: 0;
 	margin-right: 0;
-	margin-bottom: 2px;
+	margin-bottom: 0px;
 	margin-left: 0;
+}*/
+
+.MainHead {
+	font-size:32px;
+	color:#000;
 }
+
 
 header p {
   margin:0 0 3px;
@@ -188,6 +198,9 @@ header ul a strong {
 }   */
 
 
+/*.main {
+	padding-top: 75px;
+}*/
 
 section {
   width:860px;
