@@ -1,42 +1,8 @@
-.microheader {
-	margin-bottom: -10px;
-	height: 18px;
-	clear: right;
-/* MenuNav CSS from marcofolio.net /*
-/* COMMON CLASSES */
-.break { clear:both; }
-
-/* Microheader at top */
-
-
 
 .micronav {
 	list-style:none;
 }
 
-.micronav li {
-	line-height:18px;
-	float:left;
-	display:block;
-	font-family: "Times New Roman", Times, serif;
-	font-color: #888;
-	font-size: 11px;
-	padding-right: 2px;
-	padding-left: 10px;
-	color: #333;
-	background-image: linear-gradient(left , rgb(245,231,231) 0%, rgb(247,205,205) 100%);
-	background-image: -o-linear-gradient(left , rgb(245,231,231) 0%, rgb(247,205,205) 100%);
-	background-image: -moz-linear-gradient(left , rgb(245,231,231) 0%, rgb(247,205,205) 100%);
-	background-image: -webkit-linear-gradient(left , rgb(245,231,231) 0%, rgb(247,205,205) 100%);
-	background-image: -ms-linear-gradient(left , rgb(245,231,231) 0%, rgb(247,205,205) 100%);
-	background-image: -webkit-gradient(
-	linear,
-	left bottom,
-	right bottom,
-	color-stop(0, rgb(245,231,231)),
-	color-stop(1, rgb(247,205,205)));
-	background-color:#f7cdcd;/* Fallback */
-}
 
 .micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
 
