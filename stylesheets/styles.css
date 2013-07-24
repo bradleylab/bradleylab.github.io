@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul, ol, table, pre, dl {
-  margin:0 0 10px;
+  margin:0 0 20px;
 }
 
 h1, h2, h3 {
@@ -119,6 +119,10 @@ header ul {
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
   width:270px;
+}
+
+header p {
+  margin:0 0 5px;
 }
 
 header li {
