@@ -107,11 +107,12 @@ header {
 }
 
 header h1 {
-  margin:0 0 5px;
+	display:inline;
+  	margin:0 0 2px;
 }
 
 header p {
-  margin:0 0 5px;
+  margin:0 0 3px;
 }
 
 /*header ul {
@@ -182,6 +183,7 @@ section {
   width:500px;
   float:left;
   padding-bottom:50px;
+  padding-top: 25px;
 }
 
 small {
