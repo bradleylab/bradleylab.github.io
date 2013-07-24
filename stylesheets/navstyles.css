@@ -3,7 +3,46 @@
   list-style:none;
   padding:5px;
   font:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-color:#777;
+  /*color:#777;*/
   font-size:9px
 }
 
+
+/*.micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
+
+.micronav li:first-child {
+	border-left:none;
+	padding-left: 3px;
+	-moz-border-radius:4px 0 0 4px;
+    -webkit-border-radius:4px 0 0 4px;
+    border-radius:4px 0 0 4px;
+}
+
+.micronav li:first-child:after {
+	border:none;
+}
+
+.micronav li:after {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: 8px solid transparent;
+	border-left-color: #f7cdcd;
+	margin-top: -17px;
+	margin-left: -10px;
+}
+
+.micronav li:last-child {
+	border-right:none;
+	-moz-border-radius:0 4px 4px 0;
+    -webkit-border-radius:0 4px 4px 0;
+    border-radius:0 4px 4px 0;
+	padding-right: 5px;
+}
+
+.micronav li img {
+	height: 12px;
+	margin-top: 2px;
+	margin-bottom: -2px;
+}
