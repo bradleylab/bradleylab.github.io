@@ -8,7 +8,7 @@
 }
 
 
-.micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
+/*.micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
 
 .micronav li:first-child {
 	border-left:none;
