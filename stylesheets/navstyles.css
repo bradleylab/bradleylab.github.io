@@ -1,10 +1,7 @@
-header {
-	display:block;
-}
 
 #banner {
   width:840px;
-  height:80px;
+  height:70px;
   margin:0 auto;
   padding: 5px;
   border-radius:5px;
@@ -30,8 +27,8 @@ header {
     font-color:color:#777;
 	font-size: 11px;
 	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-left: 2px;
+    padding-bottom: 1px;
+    padding-left: 670px;
 }
 
 #micronav li {
@@ -69,7 +66,9 @@ header {
 /*--------------------------*/
 
 header {
-	display:block;
+	display: block;
+	margin-top: -15px;
+	margin-bottom: 5px;
 }
 
 header h1{
@@ -78,18 +77,12 @@ header h1{
 	font-weight:normal;
 	color:#000;
 	margin:0px;
-	/*clear:left;
-	display:block;
-	overflow:hidden;*/
 }
-
-
 
 #MainNav {
 	clear:left;
 	margin:0px;
 	padding:0px;
-	/*overflow:hidden;*/
 	width:840px;
 }
 
