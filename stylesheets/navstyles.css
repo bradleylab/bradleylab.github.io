@@ -40,6 +40,34 @@
 	border-right:none;
 }
 
+/*--------------------------*/
+
+nav {
+  padding:3px;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#777;
+}
+
+nav li a:link{
+	color:#006633;
+}
+
+nav li a:visited{
+	color:#006633;
+}
+
+nav li a:hover{
+	color:#011e14;
+}
+nav li a:active {
+		color:#393939;
+}
+
+
+
+
+
+
 /*.micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
 
 #micronav li:first-child {
