@@ -3,10 +3,25 @@
   list-style:none;
   padding:5px;
   font:"Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*color:#777;*/
-  font-size:9px
+  font-color:color:#777;
+  font-size:11px
 }
 
+#micronav li {
+  width:55px;
+  float:left;
+  padding-left:5px;
+  border-right:1px solid #d2d2d2;
+  height:11px;
+}
+
+#micronav li:first-child {
+	padding-left:0px;
+}
+
+#micronav li:last-child {
+	border-right:none;
+}
 
 /*.micronav li a { color:#333; text-decoration:none; text-align:center; display:block; outline:none; }
 
