@@ -1,7 +1,7 @@
 
 #banner {
   width:840px;
-  height:70px;
+  height:60px;
   margin:0 auto;
   padding: 5px;
   border-radius:5px;
@@ -67,7 +67,7 @@
 
 header {
 	display: block;
-	margin-top: -15px;
+	margin-top: -25px;
 	margin-bottom: 5px;
 }
 
