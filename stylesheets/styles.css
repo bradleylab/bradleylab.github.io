@@ -38,7 +38,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#006633;
   font-weight:400;
   text-decoration:none;
 }
@@ -106,6 +106,14 @@ header {
   position:fixed;
 }
 
+header h1 {
+  margin:0 0 5px;
+}
+
+header p {
+  margin:0 0 5px;
+}
+
 /*header ul {
   list-style:none;
   height:40px;
@@ -167,6 +175,8 @@ header ul a strong {
   display:block;
   color:#222;
 }   */
+
+
 
 section {
   width:500px;
