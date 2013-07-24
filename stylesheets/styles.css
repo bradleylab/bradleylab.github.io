@@ -8,39 +8,15 @@ body {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
-}
-
-.HeadWrap {
-  width:860px;
-  height:80px;
-  margin:0 auto;
-  padding: 10px;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  background-color:#f8f8f8;	
-}
-
-
-/*---------------------*/
-header {
 	width: 860px;
-	float: left;
-	position: fixed;
+	margin-top: 0;
+	margin-left: 75px;
+	margin-bottom: 0;
+	margin-right: auto;
+	/*min-width: 935px;
+	overflow: hidden;
+	position: absolute;*/
 }
-
-header h1 {
-	display: inline-block;
-	font-size:32px;
-	font-weight:normal;
-	color:#000;
-}
-
-header p {
-  margin:0 0 3px;
-}
-
 
 /*---------------------*/
 
@@ -104,10 +80,10 @@ pre {
   overflow-x: auto;
 }
 
-table {
+/*table {
   width:100%;
   border-collapse:collapse;
-}
+}*/
 
 th, td {
   text-align:left;
@@ -218,7 +194,7 @@ hr {
 footer {
   width:860px;
   float:left;
-  position:fixed;
+  /*position:fixed;*/
   bottom:50px;
 }
 
