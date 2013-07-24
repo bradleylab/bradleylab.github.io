@@ -1,37 +1,35 @@
+header {
+	overflow:hidden;
+}
+
 #banner {
-  width:860px;
+  width:840px;
   height:80px;
   margin:0 auto;
-  padding: 10px;
+  padding: 0px;
   border-radius:5px;
   border:1px solid #e5e5e5;
   background-color:#f8f8f8;
+  display:block; /*
+  mid-width:840px;
   /*position:fixed;*/
-  float: left;
 }
 
-#banner h1 {
-	display: inline-block;
-	font-size:32px;
-	font-weight:normal;
-	color:#000;
-	margin:0px;
-}
 /*---------------------*/
 #micronav {
-	float:left;
+	width:840px;
 	overflow:hidden;
 }
 
 #micronav ul {
 	list-style: none;
+	clear:right;
 	display: block;
-	width: 870px;
+	width: 840px;
 	font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-color:color:#777;
+    font-color:color:#777;
 	font-size: 11px;
 	padding-top: 1px;
-	padding-right: 0px;
 	padding-bottom: 1px;
 	padding-left: 2px;
 }
@@ -70,18 +68,24 @@
 }
 /*--------------------------*/
 
-#sitename{
-	float:left;
+#sitename h1{
+	display: inline;
+	font-size:32px;
+	font-weight:normal;
+	color:#000;
+	margin:0px;
+	width:840px;
+	/*clear:left;
 	display:block;
-	width:850px;
-	overflow:hidden;
+	overflow:hidden;*/
 }
 
 #MainNav {
-	float:left;
+	clear:left;
 	margin:0px;
 	padding:0px;
-	overflow:hidden;
+	/*overflow:hidden;*/
+	width:840px;
 }
 
 #MainNav ul {
