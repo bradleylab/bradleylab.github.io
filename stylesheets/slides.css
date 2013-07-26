@@ -1,16 +1,16 @@
 /* position and dimensions of the navigator */
 .navi {
 	margin-left:5px;
-	width:200px;
-	height:20px;
+	width: 200px;
+	height: 20px;
 }
 
 /* items inside navigator */
 .navi a {
-	width:8px;
-	height:8px;
-	float:left;
-	margin:3px;
+	width: 8px;
+	height: 8px;
+	float: left;
+	margin: 3px;
 	display:block;
 	font-size:1px;
 	background-image: url(/images/navigator.png);
@@ -38,16 +38,16 @@
 	position:relative;
 	overflow:hidden;
 	width: 840px;
-	height:45px;
+	height: 75px;
 	/*
 	-moz-border-radius:8px 8px 8px 8px;
 	-webkit-border-radius:8px 8px 8px 8px;
 	border-radius:8px 8px 8px 8px;
 	*/
 	/* custom decorations */
-	border:1px solid #ccc;
+	border:1px solid #e5e5e5;
 	background-repeat: repeat-x;
-	padding-right: 25px;
+	/*padding-right: 0px;*/
 }
 /*
 	root element for scrollable items. Must be absolutely positioned
@@ -63,7 +63,7 @@
 .Slideitems div {
 	float:left;
 	width: 840px;
-	height:45px;
+	height: 75px;
 	/*
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
@@ -78,7 +78,7 @@
 	padding:0px;
 	border:1px solid #ccc;
 	width: 840px;
-	height:45px;
+	height: 75px;
 	/*
 	-moz-border-radius:4px 4px 4px 4px;
 	-webkit-border-radius:4px 4px 4px 4px;
