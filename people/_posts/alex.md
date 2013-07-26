@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: person
 title: Alex
 category: people
 permalink: none
