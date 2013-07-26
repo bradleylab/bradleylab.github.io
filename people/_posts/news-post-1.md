@@ -1,7 +1,7 @@
 ---
 layout: default
 title: News Attempt
-category: news
+category: people
 ---
 
 
@@ -10,7 +10,7 @@ category: news
         <a name="About" class="anchor" href="#About"><span class="octicon octicon-link"></a>
         This is the first news post</h3>
 		
-        <p>Newsy newsy newsy. OH yeah </p>
+        <p>Peeps peeps peeps OH yeah </p>
         
         
                
