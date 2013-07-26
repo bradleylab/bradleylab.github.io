@@ -1,8 +1,8 @@
 ---
 layout: people
-title: Amanda Bender
 category: people
 permalink: /people/amanda
+title: Amanda Bender
 subtitle: Graduate Student
 image: /images/team/amanda.jpg
 published: true

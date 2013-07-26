@@ -1,8 +1,8 @@
 ---
 layout: people
-title: Melanie Suess
 category: people
 permalink: /people/melanie
+title: Melanie Suess
 subtitle: Laboratory Manager
 image: /images/team/melanie.jpg
 twitter: alexbradley
