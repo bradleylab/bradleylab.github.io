@@ -2,7 +2,7 @@
 layout: people
 category: people
 permalink: /people/alex
-title: Alex Bradey
+title: Alex Bradley
 subtitle: PI
 image: /images/team/alex.jpg
 twitter: alexbradley
