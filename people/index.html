@@ -8,7 +8,12 @@ category: people
         <h3>Who we are</h3> is it updating? site.posts
         okay now with ripped code.
         
+        <br/>
         {{ site.name }}
+        <br/>
+        {% if page.title contains 'People' %}
+        {{ site.name }} {{ site.name }}
+        {% endif %}
         
 {% for post in site.posts %}
   {% if post.categories contains 'people' %}
