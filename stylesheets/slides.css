@@ -37,7 +37,7 @@
 	/* required settings */
 	position:relative;
 	overflow:hidden;
-	width: 860px;
+	width: 850px;
 	height: 75px;
 	/*
 	-moz-border-radius:8px 8px 8px 8px;
@@ -62,7 +62,7 @@
 }
 .Slideitems div {
 	float:left;
-	width: 860px;
+	width: 850px;
 	height: 75px;
 	/*
 	-moz-border-radius:4px;
@@ -77,7 +77,7 @@
 	background-color:#fff;
 	padding:0px;
 	border:1px solid #ccc;
-	width: 860px;
+	width: 850px;
 	height: 75px;
 	/*
 	-moz-border-radius:4px 4px 4px 4px;
