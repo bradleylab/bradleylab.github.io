@@ -1,0 +1,174 @@
+/* position and dimensions of the navigator */
+.navi {
+	margin-left:5px;
+	width:200px;
+	height:20px;
+}
+
+
+/* items inside navigator */
+.navi a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	display:block;
+	font-size:1px;
+	background-image: url(../images/navigator.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+/* mouseover state */
+.navi a:hover {
+	background-position:0 -8px;      
+}
+
+/* active state (current page state) */
+.navi a.active {
+	background-position:0 -16px;     
+}
+
+
+/*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+.scrollable {
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 450px;
+	height:360px;
+	-moz-border-radius:8px 8px 8px 8px;
+	-webkit-border-radius:8px 8px 8px 8px;
+	border-radius:8px 8px 8px 8px;
+	/* custom decorations */
+	border:1px solid #ccc;
+	background-repeat: repeat-x;
+	padding-right: 25px;
+}
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accomodate scrollable items.
+	it's enough that you set the width and height for the root element and
+	not for this element.
+*/
+.scrollable .Slideitems {
+	position:absolute;
+	clear:both;
+	width: 2000em;
+}
+.Slideitems div {
+	float:left;
+	width:480px;
+	height: 360px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px 4px 0 0;
+}
+
+/* single scrollable item */
+.scrollable img {
+	float:left;
+	background-color:#fff;
+	padding:0px;
+	border:1px solid #ccc;
+	width:480px;
+	height:360px;
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	border-radius:4px 4px 4px 4px;
+	margin: 0px;
+}
+
+/* active item */
+.scrollable .active {
+	border:2px solid #000;
+	position:relative;
+	cursor:default;
+	-moz-border-radius:4px 4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px 4px;
+	border-radius:4px 4px 4px 4px;
+}
+/* CSS for flowpanes */
+
+
+	/* override the root element to enable scrolling */
+	.flowpanes {
+	position:relative;
+	overflow:hidden;
+	clear:both;
+	}
+/* override single pane */
+	/*this width is the space given to each content div */
+	.flowpanes div {
+	float:left;
+	display:block;
+	width:900px;
+	font-size:14px;
+	}
+.panescontent {
+}
+/* our additional wrapper element for the items */
+	.flowpanes .flowitems {
+	width:20000em;
+	position:absolute;
+	clear:both;
+	}
+.flowpanes .less, .flowpanes .less a {
+		color:#999 !important;
+		font-size:11px;
+	}
+/* root element for tabs */
+.flowtabs {
+	/* dimensions */
+	width:900px;
+	height:31px !important;
+	margin:0 !important;
+	padding:0;
+	/* IE6 specific branch (prefixed with "_") */
+	_margin-bottom:-2px;
+	-moz-border-radius:3px 3px 3px 3px;
+	-webkit-border-radius:3px 3px 3px 3px;
+	border-radius:3px 3px 3px 3px;
+	background-color: #CCC;
+}
+/* single tab */
+.flowtabs li { 
+	float:left; 
+	margin:0; 
+	padding:0; 
+	text-indent:0; 
+	list-style-type:none;
+}
+/* a- tag inside single tab */
+.flowtabs li a {
+	display:block;
+	height: 31px;
+	width: 120px;
+	padding:0px;
+	margin:0px;
+	/* font decoration */
+	color:#A12026;
+	font-size:18px;
+	line-height:33px;
+	text-align:center;
+	text-decoration:none;
+	background-color: 
+}
+/* mouseover state */
+.flowtabs a:hover 		{
+	color:#999;
+}
+/* currently selected tabs */
+.flowtabs a.current		{
+	cursor:default;
+	color:#333;
+	line-height:34px;
+}
+/* panes */
+.flowpanes {
+	width:900px;
+	height:750px;
+}

@@ -35,6 +35,11 @@ main {
 	padding-left: 5px;
 }
 
+.slideshow {
+	width:840px;
+	height: 45px;
+}
+
 /*---------------------*/
 
 h1, h2, h3, h4, h5, h6 {
