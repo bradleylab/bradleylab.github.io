@@ -31,6 +31,7 @@ port:        4000
 baseurl:     /
 url:         http://localhost:4000
 lsi:         false
+name:        "Bradley Laboratory"
 
 maruku:
   use_tex:    false
