@@ -1,10 +1,19 @@
-{% include header.html %}
+---
+layout: default
+title: Bradley Lab | Latest News
+---
 
+<section>
+        <h3>Latest News</h3>
+		
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
+  </div>
+{% endfor %}
 
- <main>      
-
-{% content %}
-
- </main> <!-- main -->
-
-{% include footer.html %}
+	</section>
