@@ -5,16 +5,13 @@ title: Bradley Lab People
 
 <section>
         <h3>Who we are</h3>
-		
 	{% for post in site.posts %}
-		{% if post.categories contains 'people' %}
+
 			<div class="PersonDiv">
 				<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 				<p class="meta"> {{ post.subtitle }}</p>
 			</div>
-		{% endif %}
+
 	{% endfor %}
 		
-
-
 </section>
