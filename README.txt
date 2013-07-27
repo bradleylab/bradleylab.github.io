@@ -16,3 +16,4 @@ POST sorting
 0044-00-xx: sort for courses
 
 NEWS is sorted by regular dates
+
