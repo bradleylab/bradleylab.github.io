@@ -1,0 +1,23 @@
+/*----------------------------*/
+
+.TeamThumb {
+	width:840px;
+}
+
+.TeamThumb img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.TeamThumb h3 {
+	color: #006633;
+	font-size: 14px;
+	float:left;
+}
+
+.TeamThumb h4 {
+	color: #777;
+	font-size: 10px;
+	float:left;
+}
