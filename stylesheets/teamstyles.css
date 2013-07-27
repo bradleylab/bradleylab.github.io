@@ -3,6 +3,7 @@
 .TeamThumb {
 	width:280;
 	float:left;
+	padding: 0px 15px 15px 15px;
 }
 
 .TeamThumb img {
