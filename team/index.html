@@ -10,12 +10,34 @@ category: team
 <div id="WholeTeam">
 	{% for post in site.posts reversed %}
 		{% if post.categories contains 'team' %}
-				<div class="TeamThumb"> 
-				<a href="{{ post.url }}">
-				<img src="{{ post.thumb }}" />
-				<div class="TeamTitle">{{ post.title }}</div><br/>
-				<div class="TeamSub">{{ post.subtitle }}</div></a>
-				</div>
+			{% if post.status contains 'current' %}
+					<div class="TeamThumb"> 
+					<a href="{{ post.url }}">
+					<img src="{{ post.thumb }}" />
+					<div class="TeamTitle">{{ post.title }}</div><br/>
+					<div class="TeamSub">{{ post.subtitle }}</div></a>
+					</div>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+</section>
+
+
+<h3>Alumni</h3> 
+
+<div id="WholeTeam">
+	{% for post in site.posts reversed %}
+		{% if post.categories contains 'team' %}
+			{% if post.status contains 'alumni' %}
+					<div class="TeamThumb"> 
+					<a href="{{ post.url }}">
+					<img src="{{ post.thumb }}" />
+					<div class="TeamTitle">{{ post.title }}</div><br/>
+					<div class="TeamSub">{{ post.subtitle }}</div></a>
+					</div>
+			{% endif %}
 		{% endif %}
 	{% endfor %}
 </div>
