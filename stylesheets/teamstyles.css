@@ -64,7 +64,7 @@
 }
 
 .PersonName{
-	font: 18px;
+	font: 28px;
 	line-height: 100%;
 	color: #006633;
 	font-weight: 700;
@@ -74,7 +74,7 @@
 }
 
 .PersonTitle{
-	font: 14px;
+	font: 18px;
 	color: #00000;
 	font-weight: 700;
 	opacity: 1.0;
