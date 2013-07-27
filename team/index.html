@@ -7,7 +7,7 @@ category: team
 <section>
 <h3>Who we are</h3> 
 
-<div id="TeamWrapper" style="padding:15px">
+
 	{% for post in site.posts reversed %}
 		{% if post.categories contains 'team' %}
 				<div class="TeamThumb"> 
@@ -18,5 +18,5 @@ category: team
 				</div>
 		{% endif %}
 	{% endfor %}
-</div><!--TeamWrapper-->
+
 </section>
