@@ -23,6 +23,12 @@ body {
 	height: 100%;
 }
 
+.slidepush {
+	width: 840px;
+	margin: 0 auto;
+	height: 15px; 
+}
+
 .footdiv, .push {
 	width: 860px;
 	margin: 0 auto;
