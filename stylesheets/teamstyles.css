@@ -38,6 +38,8 @@
 .PersonPage{
 	position:relative;
 	z-index: 0;
+	width: 95%;
+    margin: 0 auto;
 }
 
 .PersonPage img{
