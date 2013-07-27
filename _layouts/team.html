@@ -3,15 +3,12 @@ layout: default
 ---
 
 <div class = "PersonPage">
-
-	<img src="{{ page.image }}" />
-
-		<div class="PersonWrap">
-
+	<div class="PersonWrap">
+		
 		<div class="PersonName">
 			<h1> {{ page.title }}</h1>
 		</div>
-
+		
 		<div class="PersonTitle">
 			<h2>{% if page.subtitle %}<small>{{ page.subtitle }}</small>{% endif %}</h2>
 		</div>
@@ -21,4 +18,7 @@ layout: default
 		</div>
 
 	</div> <!-- PersonWrap -->
+	
+	<img src="{{ page.image }}" />
+
 </div>  <!-- PersonPage -->
