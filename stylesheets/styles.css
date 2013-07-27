@@ -35,6 +35,11 @@ main {
 	padding-left: 5px;
 }
 
+.MainDiv {
+	padding-top: 10px;
+}
+
+
 .slideshow {
 	width:840px;
 	height: 45px;
