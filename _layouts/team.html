@@ -1,26 +1,24 @@
 ---
 layout: default
 ---
-
+<img src="{{ post.image }}" />
 <div class = PersonPage>
 
-<img src="{{ post.image }}" />
+	<img src="{{ post.image }}" />
 
-<div class="PersonWrap">
+		<div class="PersonWrap">
 
-<div class="PersonName">
-<h1> {{ page.title }}</h1>
-</div>
+		<div class="PersonName">
+			<h1> {{ page.title }}</h1>
+		</div>
 
-<div class="PersonTitle">
-<h2>
-{% if page.subtitle %}<small>{{ page.subtitle }}</small>{% endif %}
-</h2>
-</div>
+		<div class="PersonTitle">
+			<h2>{% if page.subtitle %}<small>{{ page.subtitle }}</small>{% endif %}</h2>
+		</div>
 
-<div class ="PersonBio">
-{{ content }}
-</div>
+		<div class ="PersonBio">
+			{{ content }}
+		</div>
 
-</div> <!-- PersonWrap -->
+	</div> <!-- PersonWrap -->
 </div>  <!-- PersonPage -->
