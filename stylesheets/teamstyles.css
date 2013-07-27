@@ -1,3 +1,4 @@
+
 /*----------------------------*/
 
 .TeamThumb {
@@ -32,13 +33,43 @@
 	font-weight: normal;
 }
 
-.PersonName{
+/*---------------------*/
+
+.PersonPage{
+	z-index: 0;
+}
+
+.PersonWrap{
 	width: 300px;
-	height: 600px;
+	height: 500px;
 	margin: 15px;
 	padding: 5px;
 	border-radius: 5px 5px 5px 5px;
 	border: 1px solid #e5e5e5;
 	background-color: #f8f8f8;
 	display: block;
+	z-index: 1;
+	position: absolute;
+}
+
+.PersonName{
+	font: 18px;
+	color: #006633
+	font-weight: 700;
+	clear:right;
+	z-index: 2;
+}
+
+.PersonTitle{
+	font: 14px;
+	color: #777;
+	font-weight: 700;
+	z-index: 2;
+}
+
+.PersonBio{
+	font: 11px;
+	color: #777;
+	font-weight: 400;
+	z-index: 2;
 }
