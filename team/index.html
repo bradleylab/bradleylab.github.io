@@ -4,17 +4,19 @@ title: Bradley Lab People
 category: team
 ---
 
-<section style="padding:15px">
-        <h3>Who we are</h3> 
+<section>
+<h3>Who we are</h3> 
 
-{% for post in site.posts reversed %}
-	{% if post.categories contains 'team' %}
-			<div class="TeamThumb"> 
-			<a href="{{ post.url }}">
-			<img src="{{ post.thumb }}" />
-			<h3 class="TeamTitle">{{ post.title }}</h3><br/>
-			<h4 class="TeamSub">{{ post.subtitle }}</h4></a>
-			</div>
-	{% endif %}
-{% endfor %}
+<div id="TeamWrapper" style="padding:15px">
+	{% for post in site.posts reversed %}
+		{% if post.categories contains 'team' %}
+				<div class="TeamThumb"> 
+				<a href="{{ post.url }}">
+				<img src="{{ post.thumb }}" />
+				<h3 class="TeamTitle">{{ post.title }}</h3><br/>
+				<h4 class="TeamSub">{{ post.subtitle }}</h4></a>
+				</div>
+		{% endif %}
+	{% endfor %}
+</div><!--TeamWrapper-->
 </section>
