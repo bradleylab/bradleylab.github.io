@@ -14,10 +14,12 @@
 	color: #006633;
 	font-size: 14px;
 	float:left;
+	display: inline;
 }
 
 .TeamThumb h4 {
 	color: #777;
 	font-size: 10px;
 	float:left;
+	display: inline;
 }
