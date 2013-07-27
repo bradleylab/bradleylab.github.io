@@ -10,7 +10,11 @@ layout: default
 		</div>
 		
 		<div class="PersonTitle">
-		   	{% if page.subtitle %}<small>{{ page.subtitle }}</small>{% endif %}
+		   	{% if page.subtitle %}{{ page.subtitle }}{% endif %}
+		</div>
+		
+		<div class="PersonEmail">
+		   	{% if page.email %}<a href="mailto:{{ page.email }}">{{ page.email }}{% endif %}
 		</div>
 
 		<div class ="PersonBio">

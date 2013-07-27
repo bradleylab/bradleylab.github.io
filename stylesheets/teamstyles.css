@@ -81,6 +81,14 @@
 	z-index: 2;
 }
 
+.PersonEmail{
+	font: 10px;
+	font-style: italic;
+	font-weight: 400;
+	opacity: 1.0;
+	z-index: 2;
+}
+
 .PersonBio{
 	font: 11px;
 	color: #00000;
