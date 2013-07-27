@@ -47,6 +47,7 @@
 	border-radius: 5px 5px 5px 5px;
 	border: 1px solid #e5e5e5;
 	background-color: #f8f8f8;
+	opacity: 0.5;
 	display: block;
 	z-index: 1;
 }
