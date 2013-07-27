@@ -36,6 +36,7 @@
 /*---------------------*/
 
 .PersonPage{
+	position:relative;
 	z-index: 0;
 }
 
@@ -49,6 +50,7 @@
 	background-color: #f8f8f8;
 	opacity: 0.5;
 	display: block;
+	position:absolute;
 	z-index: 1;
 }
 
