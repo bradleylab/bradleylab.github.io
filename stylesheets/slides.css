@@ -1,32 +1,3 @@
-/* position and dimensions of the navigator */
-.navi {
-	margin-left:5px;
-	width: 200px;
-	height: 20px;
-}
-
-/* items inside navigator */
-.navi a {
-	width: 8px;
-	height: 8px;
-	float: left;
-	margin: 3px;
-	display:block;
-	font-size:1px;
-	background-image: url(/images/navigator.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
-
-/* mouseover state */
-.navi a:hover {
-	background-position:0 -8px;      
-}
-
-/* active state (current page state) */
-.navi a.active {
-	background-position:0 -16px;     
-}
 
 
 /*
@@ -47,7 +18,7 @@
 	border-radius:8px 8px 8px 8px;
 	*/
 	/* custom decorations */
-	border:1px solid #e5e5e5;
+	/*border:1px solid #e5e5e5;*/
 	/*background-repeat: repeat-x;*/
 	/*padding-right: 0px;*/
 }
