@@ -65,7 +65,7 @@
 .PersonName{
 	font: 18px;
 	line-height: 100%;
-	color: #006633
+	color: #006633;
 	font-weight: 700;
 	opacity: 1.0;
 	clear:right;
@@ -74,7 +74,7 @@
 
 .PersonTitle{
 	font: 14px;
-	color: #777;
+	color: #00000;
 	font-weight: 700;
 	opacity: 1.0;
 	z-index: 2;
@@ -82,7 +82,7 @@
 
 .PersonBio{
 	font: 11px;
-	color: #777;
+	color: #00000;
 	font-weight: 400;
 	opacity: 1.0;
 	z-index: 2;
