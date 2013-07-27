@@ -60,6 +60,7 @@
 	display: block;
 	position:absolute;
 	z-index: 1;
+	overflow:scroll;
 }
 
 .PersonName{
