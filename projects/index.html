@@ -9,7 +9,7 @@ title: Projects
 		
 		<div class="ProjectThumb">
 			{% for post in site.posts reversed %}
-				{% if post.categories contains 'project' %}
+				{% if post.category contains 'project' %}
 							<a href="{{ post.url }}">
 							<img src="{{ post.thumb }}" />
 							<div class="ProjectTitle">{{ post.title }}</div><br/></a>
