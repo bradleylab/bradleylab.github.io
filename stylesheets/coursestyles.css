@@ -3,6 +3,7 @@
 }
 
 .CourseName {
+	font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	line-height: 100%;
 	color: #006633;
@@ -11,7 +12,8 @@
 }
 
 .CourseWrap {
-	font-size: 12px;
-	color: #777;
-	font-weight: 400;
+  padding:3px;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#777;
+  font-weight:300;
 }
