@@ -48,8 +48,8 @@
     border-radius:5px;
 }
 
-.PersonWrap{
-	width: 300px;
+.PersonBox{
+width: 300px;
 	height: 450px;
 	margin: 15px;
 	padding: 5px;
@@ -60,6 +60,19 @@
 	display: block;
 	position:absolute;
 	z-index: 1;
+}
+
+
+.PersonWrap{
+	width: 300px;
+	height: 450px;
+	margin: 15px;
+	padding: 5px;
+	border: none;
+	opacity: 1;
+	display: block;
+	position:absolute;
+	z-index: 2;
 	overflow:scroll;
 }
 
@@ -70,7 +83,6 @@
 	font-weight: 700;
 	opacity: 1.0;
 	clear:right;
-	z-index: 2;
 }
 
 .PersonTitle{
@@ -78,7 +90,6 @@
 	color: #00000;
 	font-weight: 700;
 	opacity: 1.0;
-	z-index: 2;
 }
 
 .PersonEmail{
@@ -86,7 +97,6 @@
 	font-style: italic;
 	font-weight: 400;
 	opacity: 1.0;
-	z-index: 2;
 }
 
 .PersonBio{
@@ -94,5 +104,4 @@
 	color: #00000;
 	font-weight: 400;
 	opacity: 1.0;
-	z-index: 2;
 }
