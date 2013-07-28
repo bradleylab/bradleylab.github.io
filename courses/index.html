@@ -10,7 +10,7 @@ title: Courses
 	{% for post in site.posts reversed %}
 		{% if post.categories contains 'courses' %}
 			<div class="CourseName">{{ post.title }}</div>
-			<div class="CourseDesc">{{ content }}</div><br/>
+			<div class="CourseDesc">{{ post.content }}</div><br/>
 		{% endif %}
 	{% endfor %}
 </div>
