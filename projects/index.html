@@ -6,7 +6,6 @@ title: Projects
 <section>
 <h3>Projects</h3>
 		
-The 'for' and 'if' loop runs below here.
 		
 		<div class="ProjectThumb">
 			{% for post in site.posts reversed %}
@@ -24,7 +23,7 @@ The 'for' and 'if' loop runs below here.
 
 <div class="WholeTeam">
 	{% for post in site.posts reversed %}
-		{% if post.categories contains 'team' %}
+		{% if post.categories contains 'project' %}
 				<div class="TeamThumb"> 
 					<a href="{{ post.url }}">
 					<img src="{{ post.thumb }}" />
