@@ -56,7 +56,9 @@ width: 300px;
 	border-radius: 5px 5px 5px 5px;
 	border: 1px solid #e5e5e5;
 	background-color: #f8f8f8;
-	opacity: 0.7;
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;     /*all-browser compatible transparency - zoom, filter, and opacity lines */
 	display: block;
 	position:absolute;
 	z-index: 1;
