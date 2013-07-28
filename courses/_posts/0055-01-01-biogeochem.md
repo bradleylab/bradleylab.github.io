@@ -1,6 +1,6 @@
 ---
 layout: courses
-title: EPSc 323 Biogeochemistry
+title: "EPSc 323: Biogeochemistry"
 category: courses
 permalink: /courses/biogeochemistry
 ---

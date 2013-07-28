@@ -1,6 +1,6 @@
 ---
 layout: courses
-title: EPSc 445: Organic Geochemistry
+title: "EPSc 445: Organic Geochemistry"
 category: courses
 permalink: /courses/OrgGeoChem
 ---
