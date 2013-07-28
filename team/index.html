@@ -9,7 +9,7 @@ category: team
 
 <div class="WholeTeam">
 	{% for post in site.posts reversed %}
-		{% if post.categories contains 'team' %}
+		{% if post.category contains 'team' %}
 			{% if post.status contains 'current' %}
 					<div class="TeamThumb"> 
 					<a href="{{ post.url }}">
@@ -29,7 +29,7 @@ category: team
 
 <div class="WholeTeam">
 	{% for post in site.posts reversed %}
-		{% if post.categories contains 'team' %}
+		{% if post.category contains 'team' %}
 			{% if post.status contains 'alumni' %}
 					<div class="TeamThumb"> 
 					<a href="{{ post.url }}">
