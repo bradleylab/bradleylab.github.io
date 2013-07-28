@@ -79,14 +79,14 @@
 }
 
 .PersonContact{
-	font-size: 10px;
+	font-size: 9px;
 	font-weight: 300;
-	display: inline;
 	padding-left: 10px;
 }
 
 .PersonEmail{
 	font-style: italic;
+	display: inline;
 	}
 
 
