@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Bradley Lab People
+title: Projects
 ---
 
 <section>
-        <h3>Projects</h3>
+<h3>Projects</h3>
 		
 The 'for' and 'if' loop runs below here.
 		
@@ -19,5 +19,22 @@ The 'for' and 'if' loop runs below here.
 				{% endif %}
 			{% endfor %}
 		</div>
+
+
+
+<div class="WholeTeam">
+	{% for post in site.posts reversed %}
+		{% if post.categories contains 'team' %}
+			{% if post.status contains 'current' %}
+					<div class="TeamThumb"> 
+					<a href="{{ post.url }}">
+					<img src="{{ post.thumb }}" />
+					<div class="TeamTitle">{{ post.title }}</div><br/>
+					<div class="TeamSub">{{ post.subtitle }}</div></a>
+					</div>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</div>
 
 </section>
