@@ -33,7 +33,7 @@ body {
 	width: 860px;
 	margin: 0 auto;
 	height: 6px; /* .push must be the same height as .footer */
-	border-top: dashed #e5e5e5;
+	border-top: dotted #e5e5e5;
 }
 
 main {
