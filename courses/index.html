@@ -6,9 +6,13 @@ title: Courses
 <section>
         <h3>Courses</h3>
 		
-        <p>Teach a bunch of courses, point to new includes </p>
-        
-        
-
+<div class="CourseWrap">
+	{% for post in site.posts reversed %}
+		{% if post.categories contains 'courses' %}
+			<div class="CourseName">{{ post.title }}</div>
+			<div class="CourseDesc">{{ content }}</div><br/>
+		{% endif %}
+	{% endfor %}
+</div>
 
 </section>
