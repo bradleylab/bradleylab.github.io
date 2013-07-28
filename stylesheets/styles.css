@@ -33,6 +33,9 @@ body {
 	width: 860px;
 	margin: 0 auto;
 	height: 6px; /* .push must be the same height as .footer */
+}
+
+.footdiv {
 	border-top: 1px dotted #e5e5e5;
 }
 
