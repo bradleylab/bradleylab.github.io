@@ -6,6 +6,7 @@ title: Bradley Lab People
 <section>
         <h3>Projects</h3>
 		
+		The 'for' and 'if' loop runs below here.
 		<div class="ProjectThumb">
 			{% for post in site.posts reversed %}
 				{% if post.categories contains 'project' %}
@@ -13,7 +14,7 @@ title: Bradley Lab People
 							<img src="{{ post.thumb }}" />
 							<div class="ProjectTitle">{{ post.title }}</div><br/></a>
 							<div class="Project">{{ post.blurb }}</div>
-							There is a project here.
+							The loops ran
 				{% endif %}
 			{% endfor %}
 		</div>
