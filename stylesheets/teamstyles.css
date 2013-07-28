@@ -74,7 +74,7 @@
 }
 
 .PersonTitle{
-	font-size: 18px;
+	font-size: 14px;
 	color: #00000;
 	font-weight: 700;
 	opacity: 1.0;
@@ -82,7 +82,7 @@
 }
 
 .PersonEmail{
-	font-size: 10px;
+	font-size: 12px;
 	font-style: italic;
 	font-weight: 400;
 	opacity: 1.0;
@@ -90,7 +90,7 @@
 }
 
 .PersonBio{
-	font-size: 11px;
+	font-size: 14px;
 	color: #00000;
 	font-weight: 400;
 	opacity: 1.0;
