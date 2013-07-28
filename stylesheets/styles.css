@@ -35,10 +35,6 @@ body {
 	height: 6px; /* .push must be the same height as .footer */
 }
 
-.footdiv {
-	border-top: 1px dotted #e5e5e5;
-}
-
 main {
 	display:block;
 	padding-top: 15px;
