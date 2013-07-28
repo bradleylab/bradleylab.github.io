@@ -13,26 +13,6 @@ layout: default
 		   	{% if page.subtitle %}{{ page.subtitle }}{% endif %}
 		</div>
 		
-		<div class="PersonContact">
-			
-			<div>
-			{% if page.room %}{{ page.room }}{% endif %}
-			</div>
-			
-			<div>
-			{% if page.phone %}{{ page.phone }}{% endif %}
-			</div>
-		
-			<div class="PersonEmail">
-				{% if page.email %}<a href="mailto:{{ page.email }}">{{ page.email }}</a>{% endif %}
-			</div>
-
-			<div class="PersonLink">
-				{% if page.deptlink %}<a href="{{ page.deptlink }}">Department Webpage</a>{% endif %}
-			</div>
-			
-		</div> <!-- PersonContact -->
-		
 			<div class ="PersonBio">
 			{{ content }}
 		</div>
@@ -41,3 +21,11 @@ layout: default
 <img src="{{ page.image }}" />
 
 </div>  <!-- PersonPage -->
+
+</div class = "PersonContact"> <!-- PersonContact -->	
+{{ page.room }}	
+{% if page.room %}{{ page.room }}{% endif %}
+{% if page.phone %}{{ page.phone }}{% endif %}
+<div class="PersonEmail">{% if page.email %}<a href="mailto:{{ page.email }}">{{ page.email }}</a>{% endif %}</div>
+{% if page.deptlink %}<a href="{{ page.deptlink }}">Department Webpage</a>{% endif %}
+</div> <!-- PersonContact -->

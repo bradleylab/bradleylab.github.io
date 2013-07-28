@@ -80,8 +80,8 @@
 
 .PersonContact{
 	font-size: 10px;
-	float:right;
 	font-weight: 300;
+	display: inline;
 }
 
 .PersonEmail{
