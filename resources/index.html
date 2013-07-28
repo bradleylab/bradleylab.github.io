@@ -1,14 +1,21 @@
 ---
 layout: default
 title: Bradley Lab People
+category: resource
 ---
 
 <section>
         <h3>Resources</h3>
 		
-        <p>We love toys!</p>
-        
-        
+<div class="WholeTeam">
+	{% for post in site.posts reversed %}
+		{% if post.category contains 'resource' %}
+					<div class="TeamThumb"> 
+					<div class="TeamTitle">{{ post.title }}</div><br/>
+					</div>
+		{% endif %}
+	{% endfor %}
+</div>
 
 
 </section>
