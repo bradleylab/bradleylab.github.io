@@ -23,9 +23,9 @@ layout: default
 </div>  <!-- PersonPage -->
 
 </div class = "PersonContact"> <!-- PersonContact -->	
-{{ page.title }}	
+<span font-size: 11px;>{{ page.title }}</span>	
 {% if page.room %}{{ page.room }}{% endif %}
 {% if page.phone %}{{ page.phone }}{% endif %}
 <div class="PersonEmail">{% if page.email %}<a href="mailto:{{ page.email }}">{{ page.email }}</a>{% endif %}</div>
-{% if page.deptlink %}<a href="{{ page.deptlink }}">Department Webpage</a>{% endif %}
+<span font-size: 8px;>{% if page.deptlink %}<a href="{{ page.deptlink }}">(Department Webpage)</a>{% endif %}</span>
 </div> <!-- PersonContact -->
