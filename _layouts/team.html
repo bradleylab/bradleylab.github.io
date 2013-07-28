@@ -17,6 +17,10 @@ layout: default
 		   	{% if page.email %}<a href="mailto:{{ page.email }}">{{ page.email }}</a>{% endif %}
 		</div>
 
+		<div class="PersonLink">
+		   	{% if page.deptlink %}<a href="{{ page.deptlink }}">EPS page</a>{% endif %}
+		</div>
+
 		<div class ="PersonBio">
 			{{ content }}
 		</div>
