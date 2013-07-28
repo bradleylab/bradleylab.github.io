@@ -23,7 +23,7 @@ title: Projects
 
 <div class="WholeTeam">
 	{% for post in site.posts reversed %}
-		{% if post.categories contains 'project' %}
+		{% if post.category contains 'team' %}
 				<div class="TeamThumb"> 
 					<a href="{{ post.url }}">
 					<img src="{{ post.thumb }}" />
