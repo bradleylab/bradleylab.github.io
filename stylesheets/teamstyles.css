@@ -46,6 +46,7 @@
     -moz-border-radius:5px;
     -webkit-border-radius:5px;
     border-radius:5px;
+    z-index: 0;
 }
 
 .PersonBox{
@@ -83,22 +84,19 @@ width: 300px;
 	line-height: 100%;
 	color: #006633;
 	font-weight: 700;
-	opacity: 1.0;
 	clear:right;
 }
 
 .PersonTitle{
 	font-size: 14px;
 	color: #00000;
-	font-weight: 700;
-	opacity: 1.0;
+	font-weight: 600;
 }
 
 .PersonEmail{
 	font-size: 12px;
 	font-style: italic;
 	font-weight: 400;
-	opacity: 1.0;
 }
 
 .PersonBio{
@@ -106,5 +104,4 @@ width: 300px;
 	text-align: justify;
 	color: #00000;
 	font-weight: 400;
-	opacity: 1.0;
 }
