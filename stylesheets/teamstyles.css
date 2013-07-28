@@ -81,18 +81,13 @@
 .PersonContact{
 	font-size: 10px;
 	float:right;
-		font-weight: 400;
+	font-weight: 300;
 }
 
 .PersonEmail{
 	font-style: italic;
-	font-weight: 400;
 	}
 
-.PersonLink{
-	font-size: 10px;
-	font-weight: 300;
-}
 
 .PersonBio{
 	font-size: 14px;
