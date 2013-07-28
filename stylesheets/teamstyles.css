@@ -78,15 +78,19 @@
 	font-weight: 600;
 }
 
-.PersonEmail{
-	font-size: 12px;
-	font-style: italic;
-	font-weight: 400;
-	display: inline;
+.PersonContact{
+	font-size: 10px;
+	float:right;
+		font-weight: 400;
 }
 
+.PersonEmail{
+	font-style: italic;
+	font-weight: 400;
+	}
+
 .PersonLink{
-	font-size: 9px;
+	font-size: 10px;
 	font-weight: 300;
 }
 
