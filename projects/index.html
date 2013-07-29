@@ -7,19 +7,15 @@ category: project
 <section>
 <h3>Projects</h3>
 		
-		Here are some of the things we are working on
-		<div class="ProjectThumb">
-			{% for post in site.posts reversed %}
-				{% if post.category contains 'project' %}
-				{{ post.title }}
-							<a href="{{ post.url }}">
-							<img src="{{ post.thumb }}" />
-							<div class="ProjectTitle">{{ post.title }}</div><br/></a>
-							<div class="Project">{{ post.blurb }}</div>
-							The loops ran
-				{% endif %}
-			{% endfor %}
-		</div>
+<div class="WholeTeam">
+	{% for post in site.posts reversed %}
+		{% if post.category contains 'project' %}
+					<div class="TeamThumb"> 
+					<div class="TeamTitle">{{ post.title }}</div><br/>
+					</div>
+		{% endif %}
+	{% endfor %}
+</div>
 
 
 
