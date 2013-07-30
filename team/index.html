@@ -8,18 +8,20 @@ category: team
 <h3>Who we are</h3> 
 
 <div class="WholeTeam">
+<ul>
 	{% for post in site.posts reversed %}
 		{% if post.category contains 'team' %}
 			{% if post.status contains 'current' %}
-					<div class="TeamThumb"> 
+					<li>
 					<a href="{{ post.url }}">
-					<img src="{{ post.thumb }}" />
-					<div class="TeamTitle">{{ post.title }}</div><br/>
-					<div class="TeamSub">{{ post.subtitle }}</div></a>
-					</div>
+					<img src="{{ post.thumb }}" height='130' width='168' />
+					<h3>{{ post.title }}</h3>
+					<p> {{ post.subtitle }}</p></a>
+					</li>
 			{% endif %}
 		{% endif %}
 	{% endfor %}
+</ul>	
 </div>
 
 </section>
