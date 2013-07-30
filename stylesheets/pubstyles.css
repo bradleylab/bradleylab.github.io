@@ -24,7 +24,7 @@
 	color:#333; 
 }
 
-.Publist ul li year{ 
+.Publist ul li pubyear{ 
 	font-weight: 600;
 }
 
@@ -38,6 +38,7 @@
 }
 
 .Publist ul li ul li { 
+	font-weight: 600;
 	display: inline;
 	margin: 0;
 	padding: 0;
