@@ -7,11 +7,11 @@ title: Publications
 <section>
 <h3>Publications</h3>
 		
-<div class="WholeTeam">
+<div class="PubList">
 	{% for post in site.posts %}
 		{% if post.category contains 'journalpub' %}
 					<div class="TeamThumb"> 
-						<div class="TeamTitle">{{ post.title }}</div>
+						<h3>{{ post.author }}</h3> <h4>{{ post.pubyear }} {{ post.pubtitle }} <span class="text-style: italic;" {{ post.journal }}</span> {{ post.volume }} {{ post.pages }} </h4>
 					</div>
 		{% endif %}
 	{% endfor %}
