@@ -7,10 +7,18 @@ title: Bradley Lab Publications
 
 <section>
         <h3>Publications</h3>
-		
-        <p>Occasionally. Very occasionally</p>
-        
-        
+
+<div class="WholeTeam">
+	{% for post in site.posts %}
+		{% if post.category contains 'publication' %}
+					<div class="TeamThumb"> 
+					<div class="TeamTitle">{{ post.title }}</div><br/>
+					</div>
+		{% endif %}
+	{% endfor %}
+</div>
+
+
 
 
 </section>
