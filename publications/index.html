@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Bradley Lab Publications
+title: Publications
 ---
 
 
 <section>
-        <h3>Publications</h3>
+<h3>Publications</h3>
 		
 <div class="WholeTeam">
 	{% for post in site.posts reversed %}
 		{% if post.category contains 'research' %}
 					<div class="TeamThumb"> 
-					<div class="TeamTitle">{{ post.title }}</div><br/>
+						<div class="TeamTitle">{{ post.title }}</div>\
 					</div>
 		{% endif %}
 	{% endfor %}
