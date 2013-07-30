@@ -8,16 +8,13 @@ title: Bradley Lab Publications
 <section>
         <h3>Publications</h3>
 
-<div class="CourseWrap">
-	{% for post in site.posts %}
+<div class="WholeTeam">
+	{% for post in site.posts reversed %}
 		{% if post.category contains 'journalpub' %}
-			<div class="CourseName">{{ post.title }}</div>
-			<p>Pub
-			<div class="CourseDesc">{{ post.content }}</div><br/>
+					<div class="TeamTitle">{{ post.title }}</div>
 		{% endif %}
 	{% endfor %}
 </div>
-
 
 
 
