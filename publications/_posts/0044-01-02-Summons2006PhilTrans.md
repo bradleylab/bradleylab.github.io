@@ -1,4 +1,5 @@
 ---
+layout: publication
 title: Summons2006PhilTrans
 author: 
 	- Summons, R.E.

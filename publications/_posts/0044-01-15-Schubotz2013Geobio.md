@@ -1,4 +1,5 @@
 ---
+layout: publication
 title: Schubotz2013Geobio
 author: 
 	- Schubotz, F. 

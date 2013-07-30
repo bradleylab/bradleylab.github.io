@@ -1,4 +1,5 @@
 ---
+layout: publication
 title: Wankel2011NatureGeo
 author: 
 	- Wankel, S.D. 

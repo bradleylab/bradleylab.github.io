@@ -1,4 +1,5 @@
 ---
+layout: publication
 title: Kelley2005Science
 author: 
 	- Kelley, D.S. 

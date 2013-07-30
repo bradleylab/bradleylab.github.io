@@ -1,4 +1,5 @@
 ---
+layout: publication
 title: Bradley2011Geobio
 author: 
 	- Bradley, A.S. 
