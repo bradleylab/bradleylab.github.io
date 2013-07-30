@@ -15,21 +15,11 @@
 	float: left;
 	postition: relative;
 	margin: 10px;
-}
-
-
-.Publist ul li h4 { 
 	font-size:14px; 
 	color:#333; 
-	font-weight:bold; 
-	text-decoration:none; 
-	margin-top:4px; 
-	margin-bottom:0px; 
-	display: inline;
-	list-style-type: none;
 }
 
-.Publist ul li h4 ul { 
+.Publist ul li ul { 
 	list-style-type: none;
 }
 
