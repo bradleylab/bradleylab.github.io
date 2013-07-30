@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: Schubotz2013Geobio
+category: publication
 author: 
 	- Schubotz, F. 
 	- Meyer-Dombard, D. 
@@ -13,5 +14,4 @@ pubtitle:  "Spatial and temporal variability of metabolism in Streamer Biofilm C
 journal: Geobiology 
 volume: in press 
 year: 2013
-category: publication
 ---

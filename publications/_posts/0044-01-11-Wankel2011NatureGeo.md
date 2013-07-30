@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: Wankel2011NatureGeo
+category: publication
 author: 
 	- Wankel, S.D. 
 	- Germanovich, L. 
@@ -16,5 +17,4 @@ journal: Nature Geoscience
 volume: 4 
 pages: 461-468 
 year: 2011
-category: publication
 ---

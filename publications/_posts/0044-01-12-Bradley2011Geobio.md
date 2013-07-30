@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: Bradley2011Geobio
+category: publication
 author: 
 	- Bradley, A.S. 
 	- Leavitt, W.D. 
@@ -11,5 +12,4 @@ volume: 9
 number: 5 
 pages: 446-457 
 year: 2011
-category:publication
 ---
