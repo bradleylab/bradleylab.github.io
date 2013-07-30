@@ -13,7 +13,7 @@
 }
 	
 .Publist ul li {
-	display: inline;
+	display: block;
 	float: left;
 	margin-bottom: 25px;
 	font-size:14px; 
