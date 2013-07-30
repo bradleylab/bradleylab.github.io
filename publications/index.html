@@ -12,8 +12,8 @@ title: Publications
 		{% for post in site.posts %}
 			{% if post.category contains 'journalpub' %}
 				<li><ul>{% for author in post.author %}	
-						<li>{{ author }}</li> {% endfor %}</ul>.
-					&nbsp;<pubyear>{{ post.year }}</pubyear>.<br/>
+						<li>{{ author }}</li> {% endfor %}</ul>
+					&nbsp;<pubyear>{{ post.year }}</pubyear><br/>
 					{{ post.pubtitle }} <journal>{{ post.journal }}</journal> {{ post.volume }} {{ post.pages }}
 				</li>
 			{% endif %}
