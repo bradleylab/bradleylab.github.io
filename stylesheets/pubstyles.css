@@ -25,7 +25,7 @@
 }
 
 .Publist ul li pubyear{ 
-	font-weight: 600;
+	font-weight: 400;
 }
 
 
@@ -38,14 +38,15 @@
 }
 
 .Publist ul li ul li { 
-	font-weight: 600;
+	color:#333;
+	font-weight: 400;
 	display: inline;
 	margin: 0;
 	padding: 0;
 }
 
 .Publist ul li ul li:after{ 
-	content: ", &nbsp;";
+	content: ","&nbsp;;
 }
 
 .Publist ul li ul li:last-child:after{ 
