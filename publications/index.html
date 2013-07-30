@@ -13,7 +13,7 @@ title: Publications
 			{% if post.category contains 'journalpub' %}
 				<li>
 					<ul>{% for author in post.author %}	
-							<li>{{ author }}</li>,
+							<li>{{ author }}</li>, no bullet
 						{% endfor %}</ul>
 					<h5>{{ post.pubyear }} {{ post.pubtitle }} <span class="text-style: italic;"> {{ post.journal }}</span> {{ post.volume }} {{ post.pages }} </h5>
 				</li>
