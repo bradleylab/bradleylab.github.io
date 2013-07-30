@@ -8,10 +8,13 @@
 
 .Publist ul {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
 }
 	
 .Publist ul li {
-	display:inline;
+	display: inline;
 	float: left;
 	margin: 10px;
 	font-size:14px; 
@@ -20,6 +23,12 @@
 
 .Publist ul li ul { 
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.Publist ul li ul li { 
+	display: inline;
 }
 
 .Publist ul li h5 { 
