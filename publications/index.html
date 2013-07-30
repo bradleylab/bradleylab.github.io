@@ -12,8 +12,8 @@ title: Publications
 		{% if post.category contains 'journalpub' %}
 					<div class="TeamThumb"> 
 						<h4>
-						{% for author in post.author %}
-							{{ author | first }}
+						{% for author in post.author %}	
+						<li>{{ author[0] }}</li>,
 						{% endfor %}
 						</h4>
 						<h5>{{ post.pubyear }} {{ post.pubtitle }} <span class="text-style: italic;"> {{ post.journal }}</span> {{ post.volume }} {{ post.pages }} </h5>
