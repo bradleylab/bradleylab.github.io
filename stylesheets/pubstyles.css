@@ -43,7 +43,7 @@
 	content: "";
 }
 
-.Publist ul li h5 { 
+.Publist ul li { 
 	font-size:14px; 
 	color:#777; 
 	font-style: normal;
@@ -52,4 +52,8 @@
 	display: inline;
 	margin: 0;
 	padding: 0;
+}
+
+.Publist ul li year{ 
+	font-weight: 600;
 }
