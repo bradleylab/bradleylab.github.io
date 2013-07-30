@@ -14,7 +14,7 @@ title: Publications
 				<li><ul>{% for author in post.author %}	
 						<li>{{ author }}</li> {% endfor %}</ul>.
 					&nbsp;<pubyear>{{ post.year }}</pubyear>.<br/>
-					{{ post.pubtitle }} {{ post.journal }} {{ post.volume }} {{ post.pages }}
+					{{ post.pubtitle }} <journal>{{ post.journal }}</journal> {{ post.volume }} {{ post.pages }}
 				</li>
 			{% endif %}
 		{% endfor %}

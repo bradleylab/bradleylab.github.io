@@ -28,6 +28,9 @@
 	font-weight: 400;
 }
 
+.Publist ul li journal{ 
+	font-style: italic;
+}
 
 .Publist ul li ul { 
 	list-style-type: none;
