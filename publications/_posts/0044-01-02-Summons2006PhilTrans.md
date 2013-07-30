@@ -3,10 +3,10 @@ layout: publication
 title: Summons2006PhilTrans
 category: journalpub
 author: 
-	- Summons, R.E.
-	- Bradley, A.S.
-	- Jahnke, Linda L. 
-	- Waldbauer, Jacob R. 
+ - Summons, R.E.
+ - Bradley, A.S.
+ - Jahnke, Linda L. 
+ - Waldbauer, Jacob R. 
 pubtitle:  "Steroids, triterpenoids and molecular oxygen"
 journal: Philosophical Transactions of the Royal Society of London, Series B 
 volume: 361 

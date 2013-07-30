@@ -3,9 +3,9 @@ layout: publication
 title: Bradley2011Geobio
 category: journalpub
 author: 
-	- Bradley, A.S. 
-	- Leavitt, W.D. 
-	- Johnston, D.T. 
+ - Bradley, A.S. 
+ - Leavitt, W.D. 
+ - Johnston, D.T. 
 pubtitle:  "Revisiting the dissimilatory sulfate reduction network"
 journal: Geobiology 
 volume: 9 
