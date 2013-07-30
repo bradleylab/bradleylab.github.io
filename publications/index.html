@@ -8,17 +8,17 @@ title: Publications
 <h3>Publications</h3>
 		
 <div class="PubList">
-<ul>
-	{% for post in site.posts %}
-		{% if post.category contains 'journalpub' %}
-		<li>
-						<h4>
-						{% for author in post.author %}	
-						<li>{{ author }}</li>,
-						{% endfor %}
+	<ul>
+		{% for post in site.posts %}
+			{% if post.category contains 'journalpub' %}
+				<li>
+					<h4><ul>{% for author in post.author %}	
+							<li>{{ author }}</li>,
+						{% endfor %}</ul>
 						</h4>
-						<h5>{{ post.pubyear }} {{ post.pubtitle }} <span class="text-style: italic;"> {{ post.journal }}</span> {{ post.volume }} {{ post.pages }} </h5>
-</ul>
+					<h5>{{ post.pubyear }} {{ post.pubtitle }} <span class="text-style: italic;"> {{ post.journal }}</span> {{ post.volume }} {{ post.pages }} </h5>
+				</li>
+	</ul>
 		{% endif %}
 	{% endfor %}
 </div>
