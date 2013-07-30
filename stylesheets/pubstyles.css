@@ -45,7 +45,7 @@
 }
 
 .Publist ul li ul li:after{ 
-	content: ", ";
+	content: ", &nbsp;";
 }
 
 .Publist ul li ul li:last-child:after{ 
