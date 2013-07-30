@@ -7,15 +7,16 @@ title: Bradley Lab Publications
 
 <section>
         <h3>Publications</h3>
-
+		
 <div class="WholeTeam">
 	{% for post in site.posts reversed %}
-		{% if post.category contains 'journalpub' %}
-					<div class="TeamTitle">{{ post.title }}</div>
+		{% if post.category contains 'research' %}
+					<div class="TeamThumb"> 
+					<div class="TeamTitle">{{ post.title }}</div><br/>
+					</div>
 		{% endif %}
 	{% endfor %}
 </div>
-
 
 
 </section>
