@@ -11,9 +11,8 @@
 }
 	
 .Publist ul li {
-	display:block;
+	display:inline;
 	float: left;
-	postition: relative;
 	margin: 10px;
 	font-size:14px; 
 	color:#333; 
