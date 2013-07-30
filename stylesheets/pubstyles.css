@@ -18,7 +18,7 @@
 }
 
 
-.Publist ul li a h3 { 
+.Publist ul li a h4 { 
 	font-size:14px; 
 	color:#333; 
 	font-weight:bold; 
@@ -28,7 +28,7 @@
 	display: inline;
 }
 
-.Publist ul li a h4 { 
+.Publist ul li a h5 { 
 	font-size:14px; 
 	color:#777; 
 	font-style: italic;
