@@ -1,5 +1,6 @@
 ---
 layout: publication
+category: publication
 title: Kelley2005Science
 author: 
 	- Kelley, D.S. 
@@ -34,5 +35,4 @@ volume: 307
 number: 5714 
 pages: 1428-1434 
 year: 2005
-category: publication
 ---
