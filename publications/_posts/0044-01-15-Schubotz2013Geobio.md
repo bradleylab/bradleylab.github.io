@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Schubotz2013Geobio
-category: publication
+category: journalpub
 author: 
 	- Schubotz, F. 
 	- Meyer-Dombard, D. 

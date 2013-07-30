@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Wankel2011NatureGeo
-category: publication
+category: journalpub
 author: 
 	- Wankel, S.D. 
 	- Germanovich, L. 

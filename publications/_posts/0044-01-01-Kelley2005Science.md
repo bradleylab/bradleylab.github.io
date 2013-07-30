@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Kelley2005Science
-category: publication
+category: journalpub
 author: 
 	- Kelley, D.S. 
 	- Karson, J.A.

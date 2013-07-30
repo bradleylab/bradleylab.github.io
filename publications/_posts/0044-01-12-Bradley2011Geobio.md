@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Bradley2011Geobio
-category: publication
+category: journalpub
 author: 
 	- Bradley, A.S. 
 	- Leavitt, W.D. 
