@@ -28,7 +28,7 @@
 	display: inline;
 }
 
-.Publist ul li ul { 
+.Publist ul li h4 ul { 
 	list-style-type: none;
 }
 
