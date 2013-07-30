@@ -8,10 +8,10 @@ title: Publications
 <h3>Publications</h3>
 		
 <div class="WholeTeam">
-	{% for post in site.posts reversed %}
+	{% for post in site.posts %}
 		{% if post.category contains 'journalpub' %}
 					<div class="TeamThumb"> 
-						<div class="TeamTitle">{{ post.title }}</div>\
+						<div class="TeamTitle">{{ post.title }}</div>
 					</div>
 		{% endif %}
 	{% endfor %}
