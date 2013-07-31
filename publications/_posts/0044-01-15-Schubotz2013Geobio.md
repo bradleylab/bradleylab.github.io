@@ -15,5 +15,9 @@ pubtitle:  "Spatial and temporal variability of metabolism in Streamer Biofilm C
 journal: Geobiology 
 volume: in press 
 year: 2013
+<<<<<<< HEAD
 publink: 
 ---
+=======
+---
+>>>>>>> parent of 61f46a3... add abstracts and publink link
