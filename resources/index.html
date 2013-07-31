@@ -5,7 +5,7 @@ category: resource
 ---
 
 <section>
-<h3>Geochemical</h3> 
+<h3>Geochemical Lab</h3> 
 <div class="ResourceList">
 <ul>
 	{% for post in site.posts reversed %}
@@ -25,17 +25,16 @@ category: resource
 
 
 <section>
-<h3>Microbiological</h3> 
+<h3>Microbiological  Lab<h3> 
 <div class="ResourceList">
 <ul>
 	{% for post in site.posts reversed %}
 		{% if post.category contains 'resource' %}
-			{% if post.subcategory contains 'micro' %}
+			{% if post.subcategory contains 'microbio' %}
 					<li>
-					<a href="{{ post.url }}">
-					<img src="{{ post.thumb }}" height='05' width='110' />
-					<h3>{{ post.title }}</h3>
-					<p> {{ post.subtitle }}</p></a>
+					<div class = "ResourceWrap">
+						<h3>{{ post.title }}</h3><p>{{ post.content }}</p></div>
+						<img src="{{ post.thumb }}">
 					</li>
 			{% endif %}
 		{% endif %}
@@ -52,10 +51,9 @@ category: resource
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'general' %}
 					<li>
-					<a href="{{ post.url }}">
-					<img src="{{ post.thumb }}" height='05' width='110' />
-					<h3>{{ post.title }}</h3>
-					<p> {{ post.subtitle }}</p></a>
+					<div class = "ResourceWrap">
+						<h3>{{ post.title }}</h3><p>{{ post.content }}</p></div>
+						<img src="{{ post.thumb }}">
 					</li>
 			{% endif %}
 		{% endif %}

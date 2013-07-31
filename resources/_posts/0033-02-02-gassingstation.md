@@ -2,7 +2,7 @@
 layout: resources
 title: Gassing Station
 category: resource
-subcategory: 
+subcategory: microbio
 permalink: /resources/gassingstation
 subtitle: analytical
 image: /resources/images/gassingstation.jpg
