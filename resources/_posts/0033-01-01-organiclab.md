@@ -2,7 +2,7 @@
 layout: resources
 title: Organic Geochemical Laboratory
 category: resource
-subcategory: geo
+subcategory: 
 permalink: /resources/organiclab
 subtitle: analytical
 image: /resources/images/organiclab.jpg
