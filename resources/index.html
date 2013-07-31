@@ -13,8 +13,7 @@ category: resource
 			{% if post.subcategory contains 'geo' %}
 					<li>
 					<img src="{{ post.thumb }}" width='110' height='85' />
-					<h3>{{ post.title }}</h3>
-					{{ content }}
+					<h3>{{ post.title }}</h3> {{ content }}
 					</li>
 			{% endif %}
 		{% endif %}
