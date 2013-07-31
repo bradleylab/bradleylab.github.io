@@ -23,6 +23,7 @@
 	float: left;
 	margin-bottom: 20px;
 	color:#444; 
+	clear: right;
 }
 
 .Publist ul li pubyear{ 

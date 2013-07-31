@@ -35,8 +35,8 @@
 	color:#006633; 
 	font-weight:bold; 
 	text-decoration:none; 
-	margin-top:10px; 
-	margin-bottom:0px; 
+	float:left;
+	margin:0px; 
 }
 
 .ResourceList ul li a p { 
