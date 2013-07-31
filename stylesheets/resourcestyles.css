@@ -14,10 +14,12 @@
 	border: 1px solid #606060;
 	background-color: rgba(248,248,248,0.8);
 	overflow:scroll;
+	z-index: 0;
 }
 
 .ResourceImg {
 	height: 98%;
+	z-index:1;
 }
 
 
