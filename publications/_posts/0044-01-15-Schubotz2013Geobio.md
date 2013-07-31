@@ -1,5 +1,5 @@
 ---
-layout: publication
+layout: default
 title: Schubotz2013Geobio
 category: journalpub
 permalink: /publications/Schubotz2013Geobio
@@ -15,4 +15,6 @@ pubtitle:  "Spatial and temporal variability of metabolism in Streamer Biofilm C
 journal: Geobiology 
 volume: in press 
 year: 2013
+publink: 
 ---
+n/a
