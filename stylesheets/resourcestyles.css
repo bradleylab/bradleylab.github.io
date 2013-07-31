@@ -11,7 +11,9 @@
 }
 
 .ResourceWrap {
-	width: 780px;
+	width: 660px;
+	display: block;
+	float: right;
 	margin: 0 auto;
 	height: 120px;
 	border-radius: 5px 5px 5px 5px;
@@ -20,7 +22,7 @@
 	z-index: 0;
 }
 
-.ResourceWrap img {
+.ResourceList ul li img {
 	width: 110px;
 	float: left;
 	-moz-border-radius: 5px 5px 5px 5px;
