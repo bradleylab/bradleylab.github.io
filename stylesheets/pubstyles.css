@@ -27,6 +27,7 @@
 
 .Publist ul li pubyear{ 
 	font-weight: 500;
+	float: left;
 }
 
 .Publist ul li journal{ 
@@ -45,7 +46,6 @@
 	padding: 0;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 }
 
 .Publist ul li ul li { 
