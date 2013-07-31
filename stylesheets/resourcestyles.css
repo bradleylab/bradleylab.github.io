@@ -1,0 +1,48 @@
+/*----------------------------*/
+
+.ResourceList {
+  width: 840px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.ResearchProj ul {
+	list-style-type: none;
+}
+	
+.ResearchProj ul li {
+	display:block;
+	float: left;
+	postition: relative;
+	width: 840px;
+	margin: 0px auto 20px auto;
+	border: 1px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px
+}
+
+.ResearchProj ul li img { 
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    float: left;
+    margin: 5px;
+}
+
+.ResearchProj ul li a h3 { 
+	font-size:16px; 
+	color:#006633; 
+	font-weight:bold; 
+	text-decoration:none; 
+	margin-top:10px; 
+	margin-bottom:0px; 
+}
+
+.ResearchProj ul li a p { 
+	font-size:14px; 
+	color:#777; 
+	font-weight:400; 
+}
+
+
