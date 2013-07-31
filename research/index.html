@@ -22,23 +22,4 @@ category: research
 </div>
 
 
-
-<div class="WholeTeam">
-<ul>
-	{% for post in site.posts reversed %}
-		{% if post.category contains 'team' %}
-			{% if post.status contains 'current' %}
-					<li>
-					<a href="{{ post.url }}">
-					<img src="{{ post.thumb }}" height='130' width='168' />
-					<h3>{{ post.title }}</h3>
-					<p> {{ post.subtitle }}</p></a>
-					</li>
-			{% endif %}
-		{% endif %}
-	{% endfor %}
-</ul>	
-</div>
-
-
 </section>
