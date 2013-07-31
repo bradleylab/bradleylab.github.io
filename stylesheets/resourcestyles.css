@@ -37,7 +37,7 @@
 	text-decoration:none; 
 	float:left;
 	margin:0px; 
-	clear: right;
+	display: block;
 }
 
 .ResourceList ul li a p { 
