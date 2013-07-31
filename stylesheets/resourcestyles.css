@@ -6,11 +6,11 @@
   margin-right: auto ;
 }
 
-.ResearchProj ul {
+.ResourceList ul {
 	list-style-type: none;
 }
 	
-.ResearchProj ul li {
+.ResourceList ul li {
 	display:block;
 	float: left;
 	postition: relative;
@@ -22,7 +22,7 @@
     border-radius:5px
 }
 
-.ResearchProj ul li img { 
+.ResourceList ul li img { 
 	-moz-border-radius:5px;
     -webkit-border-radius:5px;
     border-radius:5px;
@@ -30,7 +30,7 @@
     margin: 5px;
 }
 
-.ResearchProj ul li a h3 { 
+.ResourceList ul li a h3 { 
 	font-size:16px; 
 	color:#006633; 
 	font-weight:bold; 
@@ -39,7 +39,7 @@
 	margin-bottom:0px; 
 }
 
-.ResearchProj ul li a p { 
+.ResourceList ul li a p { 
 	font-size:14px; 
 	color:#777; 
 	font-weight:400; 
