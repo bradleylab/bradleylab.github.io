@@ -44,6 +44,8 @@
 	font-size:14px; 
 	color:#777; 
 	font-weight:400; 
+	display: block;
+	width: 600px;
 }
 
 
