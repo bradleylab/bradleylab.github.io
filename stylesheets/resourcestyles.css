@@ -25,9 +25,9 @@
 	z-index:1;
 	margin-top: 15px;
 	margin-left: 15px;
-	-moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .ResourceInfo {
