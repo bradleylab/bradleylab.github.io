@@ -2,7 +2,6 @@
 layout: publication
 title: Summons2006PhilTrans
 category: journalpub
-permalink: Summons2006PhilTrans
 author: 
  - Summons, R.E.
  - Bradley, A.S.
