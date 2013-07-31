@@ -11,10 +11,6 @@
 }
 
 .ResourceList ul li {
-	margin-top: 15px;
-}
-
-.ResourceList ul li {
 	display:block;
 	float: left;
 	postition: relative;
