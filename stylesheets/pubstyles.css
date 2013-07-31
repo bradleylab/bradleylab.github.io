@@ -15,7 +15,7 @@
 }
 	
 .Publist ul li {
-	display: block;
+	display: inline;
 	color:#777; 
 	font-size:14px;
 	font-style: normal;
