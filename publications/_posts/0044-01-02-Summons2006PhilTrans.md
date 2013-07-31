@@ -2,6 +2,7 @@
 layout: publication
 title: Summons2006PhilTrans
 category: journalpub
+permalink: /publications/Summons2006PhilTrans
 author: 
  - Summons, R.E.
  - Bradley, A.S.
@@ -13,4 +14,5 @@ volume: 361
 number: 1470 
 pages: 951-968 
 year: 2006
+publink: 
 ---

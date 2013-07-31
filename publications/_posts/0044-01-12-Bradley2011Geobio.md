@@ -2,6 +2,7 @@
 layout: publication
 title: Bradley2011Geobio
 category: journalpub
+permalink: /publications/Bradley2011Geobio
 author: 
  - Bradley, A.S. 
  - Leavitt, W.D. 
@@ -12,4 +13,5 @@ volume: 9
 number: 5 
 pages: 446-457 
 year: 2011
+publink:
 ---
