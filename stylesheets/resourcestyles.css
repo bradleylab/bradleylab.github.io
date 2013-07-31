@@ -10,6 +10,10 @@
 	list-style-type: none;
 }
 
+.ResourceList ul li {
+	margin-top: 15px;
+}
+
 .ResourceWrap {
 	width: 660px;
 	display: block;
