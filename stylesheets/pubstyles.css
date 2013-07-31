@@ -28,6 +28,8 @@
 .Publist ul li pubyear{ 
 	font-weight: 500;
 	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 .Publist ul li journal{ 
