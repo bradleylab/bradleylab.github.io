@@ -16,6 +16,10 @@
 	postition: relative;
 	width: 840px;
 	margin: 0px auto 20px auto;
+	border: 1px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px
 }
 
 .ResearchProj ul li img { 
