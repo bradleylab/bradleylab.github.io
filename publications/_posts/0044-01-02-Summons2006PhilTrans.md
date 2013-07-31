@@ -6,8 +6,8 @@ permalink: /publications/Summons2006PhilTrans
 author: 
  - Summons, R.E.
  - Bradley, A.S.
- - Jahnke, Linda L. 
- - Waldbauer, Jacob R. 
+ - Jahnke, L.L. 
+ - Waldbauer, J.R. 
 pubtitle:  "Steroids, triterpenoids and molecular oxygen"
 journal: Philosophical Transactions of the Royal Society of London, Series B 
 volume: 361 
