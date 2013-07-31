@@ -2,6 +2,7 @@
 layout: publication
 title: Kelley2005Science
 category: journalpub
+permalink: Kelley2005Science
 author: 
  - Kelley, D.S. 
  - Karson, J.A.

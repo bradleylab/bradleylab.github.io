@@ -2,6 +2,7 @@
 layout: publication
 title: Wankel2011NatureGeo
 category: journalpub
+permalink: Wankel2011NatureGeo
 author: 
  - Wankel, S.D. 
  - Germanovich, L. 
