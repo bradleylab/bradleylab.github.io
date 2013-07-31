@@ -36,5 +36,5 @@ volume: 307
 number: 5714 
 pages: 1428-1434 
 pubyear: 2005
-publink: "http://www.sciencemag.org/content/307/5714/1428"
+
 ---
