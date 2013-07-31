@@ -1,5 +1,5 @@
 ---
-layout: publication
+layout: default
 title: Schubotz2013Geobio
 category: journalpub
 permalink: /publications/Schubotz2013Geobio
