@@ -25,16 +25,16 @@ category: resource
 
 
 <section>
-<h3>Microbiological  Lab<h3> 
+<h3>Microbiological Lab</h3> 
 <div class="ResourceList">
 <ul>
 	{% for post in site.posts reversed %}
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'microbio' %}
 					<li>
+					<div class="ResourceWrap">
 					<img src="{{ post.thumb }}" width='110' height='85' />
-					<h3>{{ post.title }}</h3>
-					<p> {{ content }}</p>
+					<h3>{{ post.title }}</h3> {{ post.content }}</div>
 					</li>
 			{% endif %}
 		{% endif %}
@@ -51,9 +51,9 @@ category: resource
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'general' %}
 					<li>
+					<div class="ResourceWrap">
 					<img src="{{ post.thumb }}" width='110' height='85' />
-					<h3>{{ post.title }}</h3>
-					<p> {{ content }}</p>
+					<h3>{{ post.title }}</h3> {{ post.content }}</div>
 					</li>
 			{% endif %}
 		{% endif %}
