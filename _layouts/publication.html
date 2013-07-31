@@ -4,7 +4,10 @@ layout: default
 
 <div class="Pubpage">
 
-{% include citation.html %}
+<ul>{% for author in page.author %}	
+		<li>{{ author }}</li> {% endfor %}</ul> &nbsp; <pubyear>{{ page.year }}</pubyear>.<br/>
+{{ page.pubtitle }} <journal>{{ page.journal }}</journal> {{ page.volume }} {{ page.pages }}
+{% if page.publink %}<publink><a href="{{ page.publink}}"><publink>(LinkOut)</a></publink>{% endif %}
 
 </div>
 
