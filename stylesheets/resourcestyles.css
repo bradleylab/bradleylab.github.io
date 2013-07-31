@@ -6,6 +6,10 @@
   margin-right: auto ;
 }
 
+.ResourceList ul {
+	list-style-type: none;
+}
+
 .ResourceWrap {
 	width: 90%;
 	height: 120px;
@@ -22,12 +26,13 @@
 	z-index:1;
 }
 
-
-
-.ResourceList ul {
-	list-style-type: none;
+.ResourceInfo {
+	height: 98%;
+	z-index:1;
 }
-	
+
+
+/*	
 .ResourceList ul li {
 	display:block;
 	float: left;
@@ -67,4 +72,4 @@
 	width: 600px;
 }
 
-
+*/
