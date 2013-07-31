@@ -11,15 +11,8 @@ title: Publications
 	<ul>
 		{% for post in site.posts %}
 			{% if post.category contains 'journalpub' %}
-<<<<<<< HEAD
 				<li>
 				{% include citation.html %}
-=======
-				<li><ul>{% for author in post.author %}	
-						<li>{{ author }}</li> {% endfor %}</ul>
-					&nbsp;<pubyear>{{ post.year }}</pubyear><br/>
-					{{ post.pubtitle }} <journal>{{ post.journal }}</journal> {{ post.volume }} {{ post.pages }}
->>>>>>> parent of 61f46a3... add abstracts and publink link
 				</li>
 			{% endif %}
 		{% endfor %}

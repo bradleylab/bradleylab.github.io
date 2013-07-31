@@ -32,6 +32,11 @@
 	font-weight: 500;
 }
 
+.Publist ul li publink{ 
+	font-size: 10px;
+	font-weight: 300;
+}
+
 .Publist ul li ul { 
 	list-style-type: none;
 	margin: 0;
