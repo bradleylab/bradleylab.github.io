@@ -45,3 +45,7 @@
 	color:#777; 
 	font-weight:400; 
 }
+
+.ResourceWrap ul {
+	padding: 5px;
+}
