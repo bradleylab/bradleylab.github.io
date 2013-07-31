@@ -31,7 +31,7 @@
     z-index: 1;
 }
 
-.ResearchProj ul li h3 { 
+.ResearchProj ul li a h3 { 
 	font-size:16px; 
 	color:#006633; 
 	font-weight:bold; 
@@ -40,7 +40,7 @@
 	margin-bottom:0px; 
 }
 
-.ResearchProj ul li p { 
+.ResearchProj ul li a p { 
 	font-size:14px; 
 	color:#777; 
 	font-weight:400; 
