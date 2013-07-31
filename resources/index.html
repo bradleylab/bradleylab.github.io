@@ -12,9 +12,9 @@ category: resource
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'geo' %}
 					<li>
-					<div class = "ResourceWrap">
-						<h3>{{ post.title }}</h3><p>{{ post.content }}</p></div>
-						<img src="{{ post.thumb }}">
+					<img src="{{ post.thumb }}" width='110' height='85' />
+					<h3>{{ post.title }}</h3>
+					<p> {{ post.blurb }}</p>
 					</li>
 			{% endif %}
 		{% endif %}
@@ -32,9 +32,9 @@ category: resource
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'microbio' %}
 					<li>
-					<div class = "ResourceWrap">
-						<h3>{{ post.title }}</h3><p>{{ post.content }}</p></div>
-						<img src="{{ post.thumb }}">
+					<img src="{{ post.thumb }}" width='110' height='85' />
+					<h3>{{ post.title }}</h3>
+					<p> {{ post.blurb }}</p>
 					</li>
 			{% endif %}
 		{% endif %}
@@ -51,9 +51,9 @@ category: resource
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'general' %}
 					<li>
-					<div class = "ResourceWrap">
-						<h3>{{ post.title }}</h3><p>{{ post.content }}</p></div>
-						<img src="{{ post.thumb }}">
+					<img src="{{ post.thumb }}" width='110' height='85' />
+					<h3>{{ post.title }}</h3>
+					<p> {{ post.blurb }}</p>
 					</li>
 			{% endif %}
 		{% endif %}
