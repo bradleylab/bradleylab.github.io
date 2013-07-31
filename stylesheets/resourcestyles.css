@@ -24,6 +24,11 @@
 .ResourceImg {
 	height: 98%;
 	z-index:1;
+	margin-top: 15px;
+	margin-left: 15px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
 }
 
 .ResourceInfo {
