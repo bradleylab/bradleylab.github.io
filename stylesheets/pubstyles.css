@@ -1,4 +1,6 @@
-/*----------------------------*/
+/*-------------------------------*/
+/*-------page of all pubs -------*/
+/*-------------------------------*/
 
 .Publist {
   width: 830px ;
@@ -69,4 +71,52 @@
 	content: "";
 }
 
+/*-------------------------------*/
+/*-------page of one pub --------*/
+/*-------------------------------*/
 
+.Publist pubyear{ 
+	font-weight: 500;
+}
+
+.Publist journal{ 
+	font-style: italic;
+	font-weight: 500;
+}
+
+.Publist publink{ 
+	font-size: 10px;
+	font-weight: 300;
+}
+
+.Publist ul { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+.Publist ul li { 
+	font-weight: 600;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.Publist ul li:before{ 
+	content: " ";
+}
+
+.Publist ul li:first-child:before{ 
+	content: "";
+}
+
+.Publist ul li:after{ 
+	content: ",  ";
+}
+
+.Publist ul li:last-child:after{ 
+	content: "";
+}
