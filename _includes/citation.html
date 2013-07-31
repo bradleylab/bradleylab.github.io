@@ -1,6 +1,0 @@
-<ul>{% for author in post.author %}	
-	<li>{{ author }}</li> &nbsp;{% endfor %}</ul>
-&nbsp;
-<pubyear>{{ post.year }}</pubyear><br/>
-{{ post.pubtitle }} <journal>{{ post.journal }}</journal> {{ post.volume }} {{ post.pages }}
-{% if post.publink }<publink><a href="{{ post.publink}}"><publink>(LinkOut)</a></publink>{% endif %}
