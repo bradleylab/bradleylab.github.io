@@ -38,6 +38,7 @@
 	float:left;
 	margin:0px; 
 	display: block;
+	clear; right;
 }
 
 .ResourceList ul li a p { 
