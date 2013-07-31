@@ -7,16 +7,38 @@ category: research
 <section>
 <h3>Research Projects</h3>
 		
-<div class="WholeTeam">
+<div class="ResearchProj">
+<ul>
 	{% for post in site.posts reversed %}
 		{% if post.category contains 'research' %}
-					<div class="TeamThumb"> 
-					<div class="TeamTitle">{{ post.title }}</div><br/>
-					</div>
+					<li>
+					<a href="{{ post.url }}">
+					<img src="{{ post.thumb }}" width='168' height='130' />
+					<h3>{{ post.title }}</h3>
+					<p> {{ post.blurb }}</p></a>
+					</li>
 		{% endif %}
 	{% endfor %}
 </div>
 
+
+
+<div class="WholeTeam">
+<ul>
+	{% for post in site.posts reversed %}
+		{% if post.category contains 'team' %}
+			{% if post.status contains 'current' %}
+					<li>
+					<a href="{{ post.url }}">
+					<img src="{{ post.thumb }}" height='130' width='168' />
+					<h3>{{ post.title }}</h3>
+					<p> {{ post.subtitle }}</p></a>
+					</li>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</ul>	
+</div>
 
 
 </section>

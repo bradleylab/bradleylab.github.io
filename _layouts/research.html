@@ -2,31 +2,19 @@
 layout: default
 ---
 
-<div class = "PersonPage">
+<div class = "ResearchPage">
 	
-	<div class="PersonWrap">
-		<div class="PersonName">
+	<div class="ResearchWrap">
+		<div class="ResearchTitle">
 		 	{{ page.title }}
 		</div>
+
 		
-		<div class="PersonTitle">
-		   	{% if page.subtitle %}{{ page.subtitle }}{% endif %}
-		</div>
-		
-			<div class ="PersonBio">
+			<div class ="ResearchInfo">
 			{{ content }}
-		</div>
+			</div>
 	</div> <!-- PersonWrap -->
 	
 <img src="{{ page.image }}" />
 
 </div>  <!-- PersonPage -->
-
-<div class = "PersonContact"> <!-- PersonContact -->	
-<span style="font-size:14px;">{{ page.title }}</span> &nbsp;&nbsp;	
-{% if page.room %}{{ page.room }}{% endif %} &nbsp;1 Brookings Drive, St. Louis, MO 63130 USA  &nbsp;&nbsp;
-{% if page.phone %}{{ page.phone }}{% endif %}&nbsp;&nbsp;
-<div class="PersonEmail">{% if page.email %}<a href="mailto:{{ page.email }}">{{ page.email }}</a>{% endif %}</div>&nbsp;&nbsp;
-<span style=" font-size:9px;">{% if page.deptlink %}<a href="{{ page.deptlink }}">(Department Webpage)</a>{% endif %}</span>
-<p>
-</div> <!-- PersonContact -->
