@@ -13,11 +13,8 @@ category: resource
 			{% if post.subcategory contains 'geo' %}
 					<li>
 					<div class = "ResourceWrap">
-						
-						<div class = "ResourceInfo">
-							<h3>{{ post.title }}</h3><p>{{ post.content }}</p></div>
-						<div class = "ResourceImg"><img src="{{ post.thumb }}" height='85' width='110' /></div>
-					</div>
+						<h3>{{ post.title }}</h3><p>{{ post.content }}</p>
+						<img src="{{ post.thumb }}" height='85' width='110' /></div>
 					</li>
 			{% endif %}
 		{% endif %}
