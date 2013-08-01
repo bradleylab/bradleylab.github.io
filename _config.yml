@@ -79,7 +79,7 @@ prose:
         field:
           element: "text"
           label: "title"
-          value: "default-title"
+          value: "PostTitle
       - name: "category"
         field: 
           element: "hidden"
