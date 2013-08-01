@@ -9,7 +9,8 @@ title: Bradley Lab | Lab Reports
 		{% if post.category contains 'news' %}
 			{% if post.published == true %}
 				<div class = "NewsPost">
-					<div class = "PostDate">{{ page.date }}</div>
+				{{ page.date | date: "%d %B, %Y %H:%M" }}
+					<div class = "PostDate"></div>
 					<div class = "PostTitle">{{ post.title }}</div>	
 					<div class = "PostContent">{{ post.content }}</div>
 				</div> 
