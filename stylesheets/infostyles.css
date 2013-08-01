@@ -1,0 +1,9 @@
+img[alt=LipidInfo] { 
+	float: right; 
+	width: 350px;
+}
+
+img[alt=biomolecules] { 
+	float: left; 
+	width: 300px;
+}
