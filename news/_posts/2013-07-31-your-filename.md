@@ -1,5 +1,5 @@
 ---
-published: false
+category: news
 ---
 
 ## A New Website
