@@ -4,31 +4,10 @@ title: Bradley Lab | Lab Reports
 ---
 
 <section>
-        <h3>Latest News</h3>
-		
-{% for post in paginator.posts %}
-	{% if post.categories contains 'news' %}
-	
-	<article>
-	
-	
-	  	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	  	<p class="author">
-			<span class="date">{{ post.date }}</span>
-			<!-- <time datetime = {{someliquid html5 format for datetime "2009-06-30T23:32:45+01:00 }} -->
-			
-			
-			
-	  	</p>
-	  		<div class="content">
-			{{ post.content }}
-	  		</div>
-	  		
-	 </article> <!-- html5 tag for article? --> 		
-	  		
-	  		
-	  		
+<h3>Latest News</h3>
+	{% for post in paginator.posts %}
+		{% if post.categories contains 'news' %}
+			<article>{% include newspost.html %}</article> 		
 		{% endif %}  		
 	{% endfor %}
-
-	</section>
+</section>

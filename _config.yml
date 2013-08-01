@@ -84,4 +84,9 @@ prose:
         field: 
           element: "hidden"
           value: "news"
+      - name: "date"
+         field: 
+          element: "hidden" 
+          value: CURRENT_DATETIME
+          
           
