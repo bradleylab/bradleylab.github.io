@@ -67,7 +67,7 @@ redcloth:
   
 prose:
   rooturl: '_posts/'
-  siteurl: 'http://bradleylab.github.io/news'
+  siteurl: 'http://bradleylab.github.io/news/index.html'
   media: 'images'
   metadata:
     _posts:
