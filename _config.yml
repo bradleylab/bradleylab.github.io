@@ -66,8 +66,8 @@ redcloth:
   hard_breaks: true
   
 prose:
-  rooturl: 'news/_posts/'
-  siteurl: 'http://bradleylab.github.io'
+  rooturl: '_posts/'
+  siteurl: 'http://bradleylab.github.io/news'
   media: 'images'
   metadata:
     _posts:
@@ -84,9 +84,6 @@ prose:
         field: 
           element: "hidden"
           value: "news"
-      - name: "date"
-         field: 
-          element: "hidden" 
-          value: CURRENT_DATETIME
+
           
           
