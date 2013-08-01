@@ -31,7 +31,7 @@
     z-index: 1;
 }
 
-.DownloadList ul li h3 { 
+.DownloadWrap h3 { 
 	font-size:16px; 
 	color:#006633; 
 	font-weight:bold; 
@@ -40,7 +40,7 @@
 	margin-bottom:0px; 
 }
 
-.DownloadList ul li p { 
+.DownloadWrap p { 
 	font-size:14px; 
 	color:#777; 
 	font-weight:400; 
