@@ -7,7 +7,7 @@ title: Bradley Lab | Lab Reports
 <h3>Latest News</h3>
 	{% for post in site.posts %}
 		{% if post.category contains 'news' %}
-			<article>{% include newspost.html %}</article> 		
+			{% include newspost.html %} 		
 		{% endif %}  		
 	{% endfor %}
 </section>
