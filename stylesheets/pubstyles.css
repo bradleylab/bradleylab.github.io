@@ -28,6 +28,7 @@
 
 .Publist ul li pubyear{ 
 	font-weight: 500;
+	color: #777; 
 	float: left;
 	margin-left: 2px;
 	margin-right: 2px;
