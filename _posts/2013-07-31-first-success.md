@@ -2,7 +2,7 @@
 category: news
 layout: news
 published: false
-title: "first success?"
+title: ""
 ---
 
 ## default title
