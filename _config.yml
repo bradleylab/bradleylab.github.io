@@ -66,9 +66,9 @@ redcloth:
   hard_breaks: true
   
 prose:
-  rooturl: "/news/_posts/"
-  siteurl: "http://bradleylab.github.io/news/"
-  media: "/images/"
+  rooturl: 'news/_posts/'
+  siteurl: 'http://bradleylab.github.io'
+  media: 'images'
   metadata:
     _posts:
       - name: "layout"
