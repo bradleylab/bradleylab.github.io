@@ -1,0 +1,51 @@
+/*----------------------------*/
+
+.DownloadList {
+  width: 840px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.DownloadList ul {
+	list-style-type: none;
+}
+
+.DownloadList ul li {
+	display:block;
+	float: left;
+	postition: relative;
+	width: 840px;
+	margin: 0px auto 20px auto;
+	border: 1px;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px
+}
+
+.DownloadList ul li img { 
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    float: left;
+    margin: 15px 5px 5px 5px;
+    z-index: 1;
+}
+
+.DownloadListt ul li h3 { 
+	font-size:16px; 
+	color:#006633; 
+	font-weight:bold; 
+	text-decoration:none; 
+	margin-top:10px; 
+	margin-bottom:0px; 
+}
+
+.DownloadList ul li p { 
+	font-size:14px; 
+	color:#777; 
+	font-weight:400; 
+}
+
+.DownloadWrap ul {
+	padding: 5px;
+}

@@ -4,11 +4,18 @@ title: Bradley Lab | Downloads
 ---
 
 <section>
-        <h3>Downloads</h3>
-		
-        <p>We've made available a few files we find useful</p>
-        
-        
-
-
+<h3>Downloads</h3> 
+<p>The files below are resources that we have found to be useful. If they are helpful, please let us know!</p>
+<div class="DownloadList">
+<ul>
+	{% for post in site.posts reversed %}
+		{% if post.category contains 'download' %}
+				<li>
+				<div class="DownloadWrap">
+				<h3>{{ post.title }}</h3> {{ post.content }}</div>
+				</li>
+		{% endif %}
+	{% endfor %}
+</ul>	
+</div>
 </section>
