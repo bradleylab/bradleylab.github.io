@@ -1,8 +1,7 @@
 ---
 layout: news
 title: Attempted News
-category: news 
-published: true 
+category: news  
 ---
 
 What's new?
