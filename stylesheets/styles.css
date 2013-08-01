@@ -51,6 +51,29 @@ main {
 	width: 840px;
 }
 
+.FrontWrap {
+	width: 840px;
+	margin-left: auto ;
+  	margin-right: auto ;
+  	margin-top: 15px;
+}
+
+.FrontWrap .left, .FrontWrap .right {
+	width: 350px;
+	height: 350px;
+	display: inline-block;
+	*display: inline;
+	border: 1px solid #777;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    padding: 10px;
+}
+
+.FrontWrap .stretch {
+	width: 100%;
+	display: inline-block;
+}
 
 /*---------------------*/
 
