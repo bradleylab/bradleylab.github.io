@@ -7,7 +7,7 @@ title: Bradley Lab | Lab Reports
 <h3>Latest News</h3>
 	{% for post in site.posts %}
 		{% if post.category contains 'news' %}
-			{% if post.published contains 'true' %}
+			{% if post.published == 'true' %}
 				<div class = "NewsPost">
 					<div class = "PostDate">{{ post.date }}</div>
 					<div class = "PostTitle">{{ post.title }}</div>	
