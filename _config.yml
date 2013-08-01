@@ -68,7 +68,7 @@ redcloth:
 prose:
   rooturl: 'news/_posts'
   siteurl: 'http://bradleylab.github.io/news/'
-  media: 'images'
+  media: 'news/images'
   metadata:
     _posts:
       - name: "layout"
@@ -79,7 +79,7 @@ prose:
         field:
           element: "text"
           label: "title"
-          value: ""
+          value: "default-title"
       - name: "category"
         field: 
           element: "hidden"
