@@ -64,3 +64,24 @@ kramdown:
 
 redcloth:
   hard_breaks: true
+  
+prose:
+  rooturl: "/news/_posts/"
+  siteurl: "http://bradleylab.github.io/news"
+  media: "/news/images/"
+  metadata:
+     /news/_posts:
+      - name: "layout"
+        field: 
+          element: "hidden"
+          value: "news"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+          value: ""
+      - name: "category"
+        field: 
+          element: "hidden"
+          value: "news"
+          
