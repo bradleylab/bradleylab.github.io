@@ -7,7 +7,11 @@ title: Bradley Lab | Lab Reports
 <h3>Latest News</h3>
 	{% for post in site.posts %}
 		{% if post.category contains 'news' %}
-			{% include newspost.html %} 		
+			<div class = "NewsPost">
+				<div class = "PostDate">{{ post.date }}</div>
+				<div class = "PostTitle">{{ post.title }}</div>	
+				<div class = "PostContent">{{ post.content }}</div>
+			</div> 		
 		{% endif %}  		
 	{% endfor %}
 </section>
