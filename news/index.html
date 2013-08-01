@@ -4,14 +4,15 @@ title: Bradley Lab | Lab Reports
 ---
 
 <section>
-<h3>Latest News</h3>
+<h3>Lab Reports</h3>
 	{% for post in site.posts %}
 		{% if post.category contains 'news' %}
 			{% if post.published == true %}
 				<div class = "NewsPost">
-				{{ page.date | date: "%d %B, %Y %H:%M" }}
-					<div class = "PostDate"></div>
-					<div class = "PostTitle">{{ post.title }}</div>	
+					<h3>{{ post.title }}<h3>	
+					<h4>{{ post.date | date: "%d %B, %Y" }}</h4>
+					<h5>{{ post.date | date: "%H:%M" }}</h5>
+					<p{{ post.title }}<p>	
 					<div class = "PostContent">{{ post.content }}</div>
 				</div> 
 			{% endif %}			
