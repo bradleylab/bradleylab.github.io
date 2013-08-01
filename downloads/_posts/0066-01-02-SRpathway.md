@@ -1,6 +1,6 @@
 ---
 layout: downloads
-title: Sulfate Reduction pathway 
+title: SRB network scripts
 category: downloads
 permalink: /downloads/SR pathway
 filetype: R
