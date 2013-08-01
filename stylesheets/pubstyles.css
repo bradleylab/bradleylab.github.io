@@ -129,5 +129,7 @@
 
 .Pubpage h4 { 
 	color: #777;
-	padding-top: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding-bottom: none;
 }
