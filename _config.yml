@@ -64,6 +64,8 @@ kramdown:
 
 redcloth:
   hard_breaks: true
+
+paginate: 5
   
 prose:
   rooturl: '_posts/'
