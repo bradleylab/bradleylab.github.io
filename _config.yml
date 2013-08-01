@@ -67,10 +67,10 @@ redcloth:
   
 prose:
   rooturl: "/news/_posts/"
-  siteurl: "http://bradleylab.github.io/news"
-  media: "/news/images/"
+  siteurl: "http://bradleylab.github.io/news/"
+  media: "/images/"
   metadata:
-     /news/_posts:
+    _posts:
       - name: "layout"
         field: 
           element: "hidden"
