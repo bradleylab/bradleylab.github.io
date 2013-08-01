@@ -1,0 +1,28 @@
+.NewsPost {
+	width:840px;
+	padding: 5px 5px 5px 5px;
+	width: 98%;
+    margin: 0px auto 15px auto;
+}
+
+.PostDate {
+	font-size: 11px;
+	line-height: 100%;
+	color: #006633;
+	font-weight: 700;
+	float-right;
+	clear-right;
+{
+
+.PostTitle {
+	font-size: 18px;
+	line-height: 100%;
+	color: #006633;
+	font-weight: 700;
+{
+
+.PostContent {
+	font-size: 14px;
+	color: #777;
+	font-weight: 400;
+{
