@@ -62,7 +62,7 @@ main {
 	float: left;
 	postition: relative;
 	height: 350px;
-	margin-left: 30px;
+	margin-left: 10px;
 	border: none;
 	background-color: #eeeeee;
 	-moz-border-radius:5px;
@@ -72,11 +72,11 @@ main {
 }
 
 #FrontLeft {
-	width: 375px;
+	width: 385px;
 }
 
 #FrontRight {
-	width: 375px;
+	width: 400px;
 }
 
 .FrontWrap div h3 { 
