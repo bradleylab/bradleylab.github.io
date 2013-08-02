@@ -1,13 +1,13 @@
 ---
 layout: resources
-title: Organic Geochemical Laboratory
+title: Organic Laboratory
 category: resource
-subcategory: 
+subcategory: geo
 permalink: /resources/organiclab
 subtitle: analytical
-image: /resources/images/organiclab.jpg
-thumb: 
+thumb: /resources/images/organiclab.jpg 
 ---
 
-What's in the organic lab
+The organic laboratory is where we do most of the processing of organic geochemical samples, along with lipid extracts from living organisms. Typical sample processing involves filtration of organic extracts, chemical degradations (such as saponification), column chromatography, evaporation and concentration, and derivatization.
+
 
