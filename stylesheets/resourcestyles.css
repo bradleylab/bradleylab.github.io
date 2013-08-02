@@ -49,6 +49,6 @@
 
 .ResourceWrap {
 	width: 675px;
-	border: 1px solid #333;
+	border: none;
 	float: right;
 }
