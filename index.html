@@ -18,7 +18,17 @@ title: Bradley Lab | Washington Univeristy in St. Louis
 <div id = "FrontRight">
 <h3>
 <a name="Latest" class="anchor" href="#Latest"><span class="octicon octicon-link"></a>Latest News</h3>
-<p>news feed </p>
+<p>
+	<ul>
+		{% for post in site.posts %}
+			{% if post.category contains 'news' %}
+				<li>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>
+</p>
 </div>
 
 </div> <!-- FrontWrap -->
