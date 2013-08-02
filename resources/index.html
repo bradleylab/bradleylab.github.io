@@ -12,8 +12,8 @@ category: resource
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'geo' %}
 					<li>
-					<div class="ResourceWrap">
 					<img src="{{ post.thumb }}" width='110' height='85' />
+					<div class="ResourceWrap">
 					<h3>{{ post.title }}</h3> {{ post.content }}</div>
 					</li>
 			{% endif %}
