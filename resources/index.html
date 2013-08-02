@@ -12,9 +12,9 @@ category: resource
 		{% if post.category contains 'resource' %}
 			{% if post.subcategory contains 'geo' %}
 					<li>
-					<img src="{{ post.thumb }}" width='110' height='85' />
 					<div class="ResourceWrap">
 					<h3>{{ post.title }}</h3> {{ post.content }}</div>
+					<img src="{{ post.thumb }}" width='110' height='85' />
 					</li>
 			{% endif %}
 		{% endif %}
@@ -22,7 +22,6 @@ category: resource
 </ul>	
 </div>
 </section>
-
 
 <section>
 <h3>Microbiological Lab</h3> 
@@ -33,9 +32,9 @@ category: resource
 			{% if post.subcategory contains 'microbio' %}
 					<li>
 					<div class="ResourceWrap">
-					<img src="{{ post.thumb }}" width='110' height='85' />
 					<h3>{{ post.title }}</h3> {{ post.content }}</div>
-					</li>
+					<img src="{{ post.thumb }}" width='110' height='85' />
+					</li>>
 			{% endif %}
 		{% endif %}
 	{% endfor %}
@@ -52,8 +51,8 @@ category: resource
 			{% if post.subcategory contains 'general' %}
 					<li>
 					<div class="ResourceWrap">
-					<img src="{{ post.thumb }}" width='110' height='85' />
 					<h3>{{ post.title }}</h3> {{ post.content }}</div>
+					<img src="{{ post.thumb }}" width='110' height='85' />
 					</li>
 			{% endif %}
 		{% endif %}

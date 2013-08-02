@@ -1,9 +1,9 @@
 /*----------------------------*/
 
 .ResourceList {
-  width: 840px ;
-  margin-left: auto ;
-  margin-right: auto ;
+	padding: 0px;
+	width: 98%;
+    margin: 0px auto 0px auto;
 }
 
 .ResourceList ul {
@@ -13,13 +13,10 @@
 .ResourceList ul li {
 	display:block;
 	float: left;
-	postition: relative;
-	width: 840px;
 	margin: 0px auto 20px auto;
-	border: 1px;
 	-moz-border-radius:5px;
     -webkit-border-radius:5px;
-    border-radius:5px
+    border-radius:5px;
 }
 
 .ResourceList ul li img { 
@@ -31,21 +28,27 @@
     z-index: 1;
 }
 
-.ResourceList ul li h3 { 
+.ResourceWrap {
+	border: 1px solid #333;
+}
+
+.ResourceWrap h3 { 
 	font-size:16px; 
 	color:#006633; 
 	font-weight:bold; 
 	text-decoration:none; 
-	margin-top:10px; 
 	margin-bottom:0px; 
 }
 
-.ResourceList ul li p { 
+.ResourceWrap p { 
 	font-size:14px; 
 	color:#777; 
 	font-weight:400; 
+	margin-bottom:0px;
 }
 
-.ResourceWrap ul {
-	padding: 5px;
+.ResourceWrap {
+	width: 675px;
+	border: 1px solid #333;
+	float: right;
 }
