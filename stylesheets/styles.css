@@ -68,7 +68,6 @@ main {
 	-moz-border-radius:5px;
     -webkit-border-radius:5px;
     border-radius:5px;
-    padding: 5px;
 }
 
 #FrontLeft {
@@ -76,10 +75,10 @@ main {
 }
 
 #FrontRight {
-	width: 400px;
+	width: 385px;
 }
 
-.FrontWrap div h3 { 
+.FrontWrap h3 { 
 	font-size:14px; 
 	color:#006633; 
 	font-weight:bold; 
