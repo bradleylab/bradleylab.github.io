@@ -56,21 +56,30 @@ main {
   margin-left: auto ;
   margin-right: auto ;
 }
-
-.FrontWrap ul {
-	list-style-type: none;
-}
 	
-.FrontWrap  ul li {
+.FrontWrap div {
 	display:block;
 	float: left;
 	postition: relative;
-	width: 350px;
 	height: 350px;
-	margin: 0px 5px 20px 5px;
+	margin-left: 30px;
+	border: none;
+	background-color: #eeeeee;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    padding: 5px;
 }
 
-.WholeTeam ul li h3 { 
+#FrontLeft {
+	width: 375px;
+}
+
+#FrontRight {
+	width: 375px;
+}
+
+.FrontWrap div h3 { 
 	font-size:14px; 
 	color:#006633; 
 	font-weight:bold; 
@@ -79,10 +88,11 @@ main {
 	margin-bottom:0px; 
 }
 
-.WholeTeam ul li p { 
-	font-size:11px; 
+.FrontWrap div p { 
+	font-size:13px; 
 	color:#777; 
 	font-weight:400; 
+	margin-top: 5px;
 }
 
 
