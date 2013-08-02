@@ -52,28 +52,41 @@ main {
 }
 
 .FrontWrap {
-	width: 840px;
-	margin-left: auto ;
-  	margin-right: auto ;
-  	margin-top: 15px;
+  width: 840px ;
+  margin-left: auto ;
+  margin-right: auto ;
 }
 
-.FrontWrap .left, .FrontWrap .right {
-	width: 350px;
-	height: 350px;
-	display: inline-block;
-	*display: inline;
-	border: 1px solid #777;
-	-moz-border-radius:5px;
-    -webkit-border-radius:5px;
-    border-radius:5px;
-    padding: 10px;
+.FrontWrap ul {
+	list-style-type: none;
+}
+	
+.FrontWrap  ul li {
+	display:block;
+	float: left;
+	postition: relative;
+	width: 185px;
+	margin: 0px 5px 20px 5px;
 }
 
-.FrontWrap .stretch {
-	width: 100%;
-	display: inline-block;
+.WholeTeam ul li h3 { 
+	font-size:14px; 
+	color:#006633; 
+	font-weight:bold; 
+	text-decoration:none; 
+	margin-top:4px; 
+	margin-bottom:0px; 
 }
+
+.WholeTeam ul li p { 
+	font-size:11px; 
+	color:#777; 
+	font-weight:400; 
+}
+
+
+
+
 
 /*---------------------*/
 
