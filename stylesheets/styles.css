@@ -80,6 +80,11 @@ main {
 	margin-right: 10px;
 }
 
+#FrontRight ul {
+	list-style-type: none;
+}
+
+
 .FrontWrap h3 { 
 	font-size:16px; 
 	color:#006633; 
