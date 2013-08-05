@@ -3,7 +3,8 @@ layout: research
 title: Hopanoids
 category: research
 permalink: /research/hopanoids
-image: /projects/images/anyimage.jpg
+image: /research/images/anyimage.jpg
+thumb: /research/images/hopanoid_thumb.jpg
 blurb: Hopanoids are geologically stable molecules found in many bacteria
 people: nonefornow
 ---
