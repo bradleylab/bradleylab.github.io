@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Mississipi valley lake cores
+title: Mississipi Valley lake cores
 category: research
 permalink: /research/lakecores
 image: /research/images/coring.jpg
