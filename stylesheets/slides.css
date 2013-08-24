@@ -1,84 +1,9 @@
 
-
-/*
-	root element for the scrollable.
-	when scrolling occurs this element stays still.
-*/
-/*.scrollable {
-	/* required settings */
-/*	position:relative;
-	overflow:hidden;
-	width: 850px;
-	height: 75px;
-	margin-top: -15px;
-	/*margin-left: -1px;*/
-/*	margin-bottom: 10px;
-	border:1px solid #e5e5e5;
-	/*
-	-moz-border-radius:8px 8px 8px 8px;
-	-webkit-border-radius:8px 8px 8px 8px;
-	border-radius:8px 8px 8px 8px;
-	*/
-	/* custom decorations */
-	/*border:1px solid #e5e5e5;*/
-	/*background-repeat: repeat-x;*/
-	/*padding-right: 0px;*/
-}
-/*
-	root element for scrollable items. Must be absolutely positioned
-	and it should have a extremely large width to accomodate scrollable items.
-	it's enough that you set the width and height for the root element and
-	not for this element.
-*/
-
 .slideshow
 	position:absolute;
 	clear:both;
+	width: 98%;
+    margin: 0 auto;
 	width: 850px;
-	height: 75px;
 
-
-
-/*.scrollable .Slideitems {
-	position:absolute;
-	clear:both;
-	width: 2000em;
-}
-.Slideitems div {
-	float:left;
-	width: 850px;
-	height: 75px;
-	/*
-	-moz-border-radius:4px;
-	-webkit-border-radius:4px;
-	border-radius:4px 4px 0 0;
-	*/
-}
-
-/* single scrollable item */
-/*.scrollable img {
-	float:left;
-	background-color:#fff;
-	padding:0px;
-	/*border:1px solid #ccc;*/
-/*	width: 850px;
-	height: 75px;
-	/*
-	-moz-border-radius:4px 4px 4px 4px;
-	-webkit-border-radius:4px 4px 4px 4px;
-	border-radius:4px 4px 4px 4px;
-	*/
-/*	margin: 0px;
-}
-
-/* active item */
-/*.scrollable .active {
-	border:2px solid #000;
-	position:relative;
-	cursor:default;
-	/*
-	-moz-border-radius:4px 4px 4px 4px;
-	-webkit-border-radius:4px 4px 4px 4px;
-	border-radius:4px 4px 4px 4px;
-	*/
-}
+*/removed all .scrollable css
