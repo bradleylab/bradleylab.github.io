@@ -1,6 +1,6 @@
 
 .slideshow {
-	position:absolute;
+	position:relative;
 	clear:both;
     margin: 0 auto 0 auto;
 	width: 852px;
