@@ -4,7 +4,7 @@
 		defaults: {
 			
 			//you can change these defaults to your own preferences.
-			path: 'images/', //change this to the path of your images
+			path: '/images/', //change this to the path of your images
 			myImages: ['autosampler.jpg', 'flasks.jpg', 'flatcone.jpg', 'gcmsdata.jpg', 'horxcoring.jpg', 'labbench.jpg', 'srpathway.jpg', 'tropicalplants.jpg' ] //put image names in this bracket. ex: 'harold.jpg', 'maude.jpg', 'etc'
 			
 		}			
