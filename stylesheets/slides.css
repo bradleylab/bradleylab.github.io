@@ -2,8 +2,8 @@
 .slideshow {
 	position:absolute;
 	clear:both;
-    margin: 0 auto 0 10px;
-	width: 98%;
+    margin: 0 auto 0 auto;
+	width: 850;
 }
 
 .slideshow img {
