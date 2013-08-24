@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-	width: 860px;
+	width: 852px;
 	margin: 0 auto -6px; /* the bottom margin is the negative value of the footer's height */
 	min-height: 100%;
 	height: auto !important;
@@ -209,7 +209,7 @@ img {
 }
 
 section {
-  width:860px;
+  width:852px;
   float:left;
   padding-bottom:50px;
   padding-top: 25px;
@@ -227,7 +227,7 @@ hr {
 }
 
 footer {
-  width:860px;
+  width:852px;
   float:left;
   /*position:fixed;*/
   bottom:50px;
