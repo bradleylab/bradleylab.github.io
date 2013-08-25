@@ -67,12 +67,14 @@ main {
 #FrontLeft {
 	width: 400px;
 	float: left;
+	margin-left: 2px;
+	margin-right: 30px;
 }
 
 #FrontRight {
 	width: 400px;
 	float: right;
-	margin-right: 10px;
+	margin-right: 2px;
 }
 
 #FrontRight ul {
