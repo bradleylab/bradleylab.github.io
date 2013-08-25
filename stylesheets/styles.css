@@ -25,6 +25,7 @@ body {
 
 .slidepush {
 	width: 852px;
+	display:block;
 	margin: 0 auto;
 	height: 15px; 
 }
