@@ -31,7 +31,7 @@ body {
 }
 
 .footdiv, .push {
-	width: 852;  
+	width: 852px;  
 	margin-right: auto;
 	margin-left: auto;
 	height: 6px; /* .push must be the same height as .footer */
