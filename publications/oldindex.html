@@ -1,0 +1,25 @@
+---
+layout: default
+title: Bradley Lab | Publications
+---
+
+
+<section>
+<h3>Publications</h3>
+		
+<div class="Publist">
+	<ul>
+		{% for post in site.posts %}
+			{% if post.category contains 'journalpub' %}
+				<li>
+				
+				{% include citation.html %}
+				
+				</li>
+			{% endif %}
+		{% endfor %}
+	</ul>	
+</div>
+
+
+</section>
