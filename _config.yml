@@ -29,6 +29,20 @@ server:      false    # deprecated
 host:        0.0.0.0
 port:        4000
 baseurl:     /
+url: http://bradleylab.wustl.edu
+sitemap:
+  file: "/sitemap.xml"
+  include_posts:
+    - "/index.html"
+    - "/courses/index.html"
+    - "/downloads/index.html"
+    - "/info/index.html"
+    - "/news/index.html"
+    - "/publications/index.html"
+    - "/research/index.html"
+    - "/resources/index.html"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
 
 lsi:         false
 name:        "Bradley Laboratory"
