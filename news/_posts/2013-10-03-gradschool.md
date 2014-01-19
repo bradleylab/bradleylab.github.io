@@ -3,6 +3,7 @@ layout: news
 title: Graduate Student Opportunities
 category: news 
 published: true 
+anchor: gradschool2013
 date: 2013-10-03 11:25
 ---
 

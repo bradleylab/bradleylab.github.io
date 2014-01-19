@@ -3,6 +3,7 @@ layout: news
 title: Fall Semester begins
 category: news 
 published: true 
+anchor:new_semester
 date: 2013-09-03 16:15
 ---
 

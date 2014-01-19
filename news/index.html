@@ -9,6 +9,7 @@ title: Bradley Lab | Lab Reports
 		{% if post.category contains 'news' %}
 			{% if post.published == true %}
 				<div class = "NewsPost">
+					<a name = "{{ post.anchor }}"></a>
 					<h3>{{ post.title }}<h3>	
 					<h4>{{ post.date | date: "%d %B, %Y" }}</h4>
 					<h5>{{ post.date | date: "%H:%M" }}</h5>

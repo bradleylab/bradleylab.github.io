@@ -22,7 +22,7 @@ title: Bradley Lab | Washington Univeristy in St. Louis
 		{% for post in site.posts %}
 			{% if post.category contains 'news' %}
 				<li>
-				<a href="{{ site.url }}/news/>{{ post.title }}"</a>
+				<a href="{{ site.url }}/news/index.html#{{post.anchor}}">{{ post.title }}</a>
 				{{ post.date | date: "%d %B, %Y" }}&nbsp;{{ post.date | date: "%H:%M" }}
 				</li>
 			{% endif %}
