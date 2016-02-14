@@ -5,9 +5,10 @@ category: team
 ---
 
 <section>
-<h3>Who we are</h3> 
+
 
 <div class="WholeTeam">
+<h3>Who we are</h3> 
 <ul>
 	{% for post in site.posts reversed %}
 		{% if post.category contains 'team' %}
@@ -26,10 +27,12 @@ category: team
 
 </section>
 
+
 <section>
-<h3>Lab Alumni</h3> 
+
 
 <div class="WholeTeam">
+<h3>Lab Alumni</h3> 
 <ul>
 	{% for post in site.posts reversed %}
 		{% if post.category contains 'team' %}

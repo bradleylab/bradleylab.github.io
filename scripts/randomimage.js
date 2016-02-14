@@ -3,7 +3,7 @@
 	$.randomImage = {
 		defaults: {
 			path: '/images/', //path to images
-			myImages: ['autosampler.jpg', 'flasks.jpg', 'flatcone.jpg', 'gcmsdata.jpg', 'horxcoring.jpg', 'labbench.jpg', 'srpathway.jpg', 'tropicalplants.jpg' ] //image names here
+			myImages: ['autosampler.jpg', 'flasks.jpg', 'flatcone.jpg', 'gcmsdata.jpg', 'horxcoring.jpg', 'labbench.jpg', 'srpathway.jpg', 'tropicalplants.jpg', 'housesprings.jpg' ] //image names here
 		}			
 	}
 	
